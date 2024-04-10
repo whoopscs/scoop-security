@@ -5,7 +5,7 @@
     </p>
 </div>
 
-## Scoop 安装和配置
+## Scoop 安装
 
 - 打开 PowerShell
 - 允许 PowerShell 执行本地脚本
@@ -76,6 +76,8 @@ iwr -useb get.scoop.sh -outfile 'install.ps1'
 scoop uninstall scoop
 ```
 
+
+## Scoop 配置
 
 
 - 添加自定义软件bucket
