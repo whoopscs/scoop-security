@@ -1,7 +1,7 @@
 {
     "version": "3.2.4",
     "description": "Fast and customizable vulnerability scanner based on simple YAML based DSL",
-    "homepage": "https://nuclei.projectdiscovery.io",
+    "homepage": "https://github.com/projectdiscovery/nuclei",
     "license": "MIT",
     "architecture": {
         "32bit": {

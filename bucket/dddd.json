@@ -3,7 +3,6 @@
     "description": "一款高可拓展的指纹识别、供应链漏洞探测工具。支持从Hunter、Fofa批量拉取目标。",
     "homepage": "https://github.com/SleepingBag945/dddd",
     "license": "MIT",
-    "notes": "https://github.com/s0nd9r/scoop-security/blob/main/bucket/dddd.json",
     "architecture": {
         "32bit": {
             "url": "https://github.com/SleepingBag945/dddd/releases/download/v2.0/dddd.exe",
