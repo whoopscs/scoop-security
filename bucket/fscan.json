@@ -7,15 +7,29 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/shadow1ng/fscan/releases/download/1.8.3/fscan.exe",
-            "hash": "78eed41cec221edd4ffed223f2fd2271a96224fd1173ed685c8c0b274fe93029",
-            "bin": "fscan.exe"
+            "hash": "78eed41cec221edd4ffed223f2fd2271a96224fd1173ed685c8c0b274fe93029"
+        },
+        "32bit": {
+            "url": "https://github.com/shadow1ng/fscan/releases/download/1.8.3/fscan32.exe",
+            "hash": "b9919cdb3ebf7abed7458e357a71924bb0dd43332e90c30a6f146caefcf56baa"
+        },
+        "arm64": {
+            "url": "https://github.com/shadow1ng/fscan/releases/download/1.8.3/fscan_arm64.exe",
+            "hash": "723c4fa580d252cfdafda962e5abb6b45eec8c9aae56497d98983ce6dcf9a1ac"
         }
     },
+    "bin": "fscan.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/shadow1ng/fscan/releases/download/$version/fscan.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/shadow1ng/fscan/releases/download/$version/fscan32.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/shadow1ng/fscan/releases/download/$version/fscan_arm64.exe"
             }
         }
     }
