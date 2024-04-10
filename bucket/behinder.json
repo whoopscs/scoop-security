@@ -24,9 +24,9 @@
     "checkver": {
         "url": "https://api.github.com/repos/rebeyond/Behinder/releases/latest",
         "jsonpath": "$..browser_download_url",
-        "regex": "/Behinder_v([\\d.]+)\\.zip"
+        "regex": "Behinder_v(?<tag>[\\d.]+(?:(?:_\\w+)|(?:[\\w%]+)?))/Behinder_v(?<version>([\\d.]+?(?:_\\w+)?)(?:\\.t00ls)?)\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/rebeyond/Behinder/releases/download/Behinder_v$version/Behinder_v$version.zip"
+        "url": "https://github.com/rebeyond/Behinder/releases/download/Behinder_v$tag/Behinder_v$version.zip"
     }
 }
