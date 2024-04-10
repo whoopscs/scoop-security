@@ -43,4 +43,5 @@ they satisfy the criteria before opening new app request in my bucket.
 
 
 ## Thanks
+[ScoopInstaller/Scoop: A command-line installer for Windows.](https://github.com/ScoopInstaller/Scoop)
 [ViCrack/scoop-bucket: The free bucket for Scoop](https://github.com/ViCrack/scoop-bucket)
