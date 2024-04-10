@@ -6,7 +6,6 @@
         "identifier": "Freeware",
         "url": "https://github.com/chaitin/xpoc/blob/main/LICENSE.md"
     },
-    "notes": "https://github.com/s0nd9r/scoop-security/blob/main/bucket/xpoc.json",
     "architecture": {
         "32bit": {
             "url": "https://github.com/chaitin/xpoc/releases/download/0.0.8/xpoc_windows_386.zip",

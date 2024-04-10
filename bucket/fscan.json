@@ -2,7 +2,6 @@
     "version": "1.8.3",
     "description": "一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。",
     "homepage": "https://github.com/shadow1ng/fscan",
-    "notes": "https://github.com/s0nd9r/scoop-security/blob/main/bucket/fscan.json",
     "license": "MIT",
     "architecture": {
         "64bit": {

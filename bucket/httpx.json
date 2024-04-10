@@ -1,7 +1,7 @@
 {
     "version": "1.6.0",
     "description": "httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library. It is designed to maintain result reliability with an increased number of threads",
-    "homepage": "https://projectdiscovery.io",
+    "homepage": "https://github.com/projectdiscovery/httpx",
     "license": "MIT",
     "architecture": {
         "32bit": {

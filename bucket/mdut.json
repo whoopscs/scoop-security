@@ -3,7 +3,6 @@
     "description": "MDUT - Multiple Database Utilization Tools",
     "homepage": "https://github.com/SafeGroceryStore/MDUT",
     "license": "AGPL-3.0-or-later",
-    "notes": "https://github.com/s0nd9r/scoop-security/blob/main/bucket/mdut.json",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
