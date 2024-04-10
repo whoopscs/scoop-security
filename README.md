@@ -4,6 +4,7 @@
         Scoop bucket for Penetration Testing and Cybersecurity related tools
     </p>
 </div>
+
 ## Scoop 安装和配置
 
 - 打开 PowerShell
