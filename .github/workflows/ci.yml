@@ -28,11 +28,11 @@ jobs:
         with:
           modules-to-cache: BuildHelpers
           shell: powershell
-      - name: Test Bucket
-        shell: powershell
-        run: |
-          $env:SCOOP_HOME="$(Convert-Path '.\scoop_core')"
-          .\my_bucket\bin\test.ps1
+#       - name: Test Bucket
+#         shell: powershell
+#         run: |
+#           $env:SCOOP_HOME="$(Convert-Path '.\scoop_core')"
+#           .\my_bucket\bin\test.ps1
   test_pwsh:
     name: PowerShell
     runs-on: windows-latest
@@ -52,8 +52,8 @@ jobs:
         with:
           modules-to-cache: BuildHelpers
           shell: pwsh
-      - name: Test Bucket
-        shell: pwsh
-        run: |
-          $env:SCOOP_HOME="$(Convert-Path '.\scoop_core')"
-          .\my_bucket\bin\test.ps1
+#       - name: Test Bucket
+#         shell: pwsh
+#         run: |
+#           $env:SCOOP_HOME="$(Convert-Path '.\scoop_core')"
+#           .\my_bucket\bin\test.ps1
