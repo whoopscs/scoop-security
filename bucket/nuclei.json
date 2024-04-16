@@ -26,5 +26,19 @@
                 "url": "https://github.com/projectdiscovery/nuclei/releases/download/v$version/nuclei_$version_windows_amd64.zip"
             }
         }
-    }
+    },
+    "pre_install": "
+        $wsShell = New-Object -ComObject WScript.Shell
+        $shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'Nuclei.lnk'))
+        $shortcut.TargetPath = \"cmd.exe\"
+        $shortcut.Arguments  = \"/K cd /d $dir\"
+        $shortcut.IconLocation  = \"$bucketsdir\\security\\icon\\nuclei.ico\"
+        $shortcut.Save()
+    ",
+    "pre_uninstall": "
+        $shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"Nuclei.lnk\")
+        if (Test-Path $shortcutPath) {
+            Remove-Item $shortcutPath -Force
+        }
+	",
 }
