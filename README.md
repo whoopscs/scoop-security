@@ -199,7 +199,7 @@ scoop uninstall 7zip typora
 | yakit           | Cyber Security ALL-IN-ONE Platform                           |
 
 
-在线查看仓库列表[s0nd9r/scoop-security](https://scoop.sh/#/apps?q=%22https%3A%2F%2Fgithub.com%2Fs0nd9r%2Fscoop-security%22&o=false&n=true)
+在线查看仓库列表[s0nd9r/scoop-security](https://scoop.sh/#/apps?q=%22https%3A%2F%2Fgithub.com%2Fs0nd9r%2Fscoop-security%22&o=false&n=true&dm=false)
 
 ## Question
 **1. I want some other apps!**
