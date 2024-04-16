@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "description": "面向红队的, 高度可控可拓展的自动化引擎",
+    "homepage": "https://github.com/chainreactors/gogo",
+    "license": "MIT",
+    "url": "https://github.com/chainreactors/gogo/releases/download/latest/gogo.exe",
+    "hash": "1e960d4c1c00fa308fe9da6bfb20764a379cb8cf4b874f2456d19982e6c688c2",
+    "bin": "gogo.exe",
+    "shortcuts": [
+        [
+            "gogo.exe",
+            "Gogo"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/chainreactors/gogo/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_amd64.exe"
+    }
+}
