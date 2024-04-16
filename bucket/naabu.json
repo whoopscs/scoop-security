@@ -2,7 +2,7 @@
     "version": "2.3.0",
     "description": "projectdiscovery/naabu: A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests",
     "homepage": "https://github.com/projectdiscovery/naabu",
-    "license": "Freeware",
+    "license": "MIT",
     "architecture": {
         "32bit": {
             "url": "https://github.com/projectdiscovery/naabu/releases/download/v2.3.0/naabu_2.3.0_windows_386.zip",
@@ -24,5 +24,19 @@
                 "url": "https://github.com/projectdiscovery/naabu/releases/download/v$version/naabu_$version_windows_amd64.zip"
             }
         }
-    }
+    },
+    "pre_install": "
+        $wsShell = New-Object -ComObject WScript.Shell
+        $shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'naabu.lnk'))
+        $shortcut.TargetPath = \"cmd.exe\"
+        $shortcut.Arguments  = \"/K cd /d $dir\"
+        $shortcut.IconLocation  = \"$bucketsdir\\security\\icon\\naabu.ico\"
+        $shortcut.Save()
+    ",
+    "pre_uninstall": "
+        $shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"naabu.lnk\")
+        if (Test-Path $shortcutPath) {
+            Remove-Item $shortcutPath -Force
+        }
+	",
 }
