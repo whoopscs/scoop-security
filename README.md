@@ -5,102 +5,32 @@
     </p>
 </div>
 
-## Scoop 安装
-
-- 打开 PowerShell
-- 允许 PowerShell 执行本地脚本
-
-```powershell
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
-- 通过以下命令，可以将Scoop安装到默认目录（`C:\Users\<username>\scoop`）：
-
-```powershell
-Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
-
-# 或者用这一条更短的命令
-iwr -useb get.scoop.sh | iex
-```
-
-- 如果你需要更改默认的安装目录，则需要在执行以上命令前添加环境变量的定义，通过执行以下命令完成：
-
-```powershell
-$env:SCOOP='D:\Scoop'
-[Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
-
-iwr -useb get.scoop.sh | iex
-```
-
-- 设置允许 PowerShell 执行本地脚本
-
-```powershell
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
-- **错误解决**：无法以`administrator`运行
-
-```powershell
-PS C:\Users\CIA0CIA0> irm get.scoop.sh | iex 
-Initializing... 
-Running the installer as administrator is disabled by default, see https://github.com/ScoopInstaller/Install#for-admin for details.                                                             Abort.
-```
-
-更换安装命令:
-
-```powershell
-iwr -useb get.scoop.sh -outfile 'install.ps1'
-.\install.ps1 -RunAsAdmin
-```
-
-> Scoop的软件仓库通常都放在Github上，如果你的电脑无法直接访问，可以考虑设置代理访问
->
->
-> - 设置Scoop代理
->
-> ```powershell
-> scoop config proxy 127.0.0.1:7890
-> ```
-> 
-> - 恢复使用系统代理
-> 
-> ```powershell
-> scoop config rm proxy
-> ```
-
-
-
-- 卸载 Scoop
-
-```powershell
-scoop uninstall scoop
-```
-
-
 ## Scoop 配置
 
 
-- 添加自定义软件bucket
-
-Scoop 默认软件仓库（main bucket）软件数量是有限，通常我们需要安装三方bucket，执行以下命令订阅本软件仓库：
+- 执行以下命令订阅本软件仓库：
 
 ```powershell
-scoop bucket add security https://github.com/s0nd9r/scoop-security
+scoop bucket add sec https://github.com/s0nd9r/scoop-security
+
+//scoop bucket add <仓库别名> <仓库地址>
 ```
 
 - 查找软件
 
 ```
+scoop search sec/nuclei
+//或者
 scoop search nuclei
 ```
 
 - 安装本仓库的软件：
 
 ```
-scoop install security/<软件名>
+scoop install nuclei
 ```
 
-大多数情况下，是可以省略 `security/`，只需要执行类似 `scoop install nuclei` 的命令
+大多数情况下，是可以省略 `sec/`，只需要执行类似 `scoop install nuclei` 的命令，除非安装多个仓库都有此软件，则需要指定仓库
 
 - 查看已安装的程序
 
@@ -123,7 +53,7 @@ scoop update
 - 更新 app
 
 ```
-scoop update 7zip
+scoop update nuclei
 ```
 
 - 更新 scoop、bucket、app
@@ -135,46 +65,20 @@ scoop update *
 - 卸载软件
 
 ```
-scoop uninstall 7zip
+scoop uninstall nuclei
 ```
 
 - 一次性卸载多个软件
 
 ```
-scoop uninstall 7zip typora
+scoop uninstall nuclei httpx
 ```
 
 
 
-> 通常本仓库每隔几个小时会自动更新所有软件到最新版本，也可以在本地手动检查软件是否更新新版本
->
-> - 尝试更新软件版本
->
-> ```powershell
-> cd D:\Scoop\buckets\security
-> .\bin\checkver.ps1 xray
-> ```
->
-> - 存在新版本时，可下载并更新软件hash值
->
-> ```powershell
-> .\bin\checkver.ps1 xray -u
-> ```
->
-> 通过查看security\buckets下的该json文件已被更新
-
-
-
-![image-20240410143212966](assets/image-20240410143212966.png)
-
-
-
-更多关于Scoop的信息，请阅读[ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop)的wiki界面
-
-
-
-
 ## Featured Apps
+
+**在线查看仓库列表：[s0nd9r/scoop-security](https://scoop.sh/#/apps?q=%22https%3A%2F%2Fgithub.com%2Fs0nd9r%2Fscoop-security%22&o=false&n=true&dm=false)**
 
 | Manifest        | Description                                                  |
 | --------------- | ------------------------------------------------------------ |
@@ -199,7 +103,6 @@ scoop uninstall 7zip typora
 | yakit           | Cyber Security ALL-IN-ONE Platform                           |
 
 
-在线查看仓库列表[s0nd9r/scoop-security](https://scoop.sh/#/apps?q=%22https%3A%2F%2Fgithub.com%2Fs0nd9r%2Fscoop-security%22&o=false&n=true&dm=false)
 
 ## Question
 **1. I want some other apps!**
