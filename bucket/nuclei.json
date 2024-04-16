@@ -29,14 +29,14 @@
     },
     "pre_install": "
         $wsShell = New-Object -ComObject WScript.Shell
-        $shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'Nuclei.lnk'))
+        $shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'nuclei.lnk'))
         $shortcut.TargetPath = \"cmd.exe\"
         $shortcut.Arguments  = \"/K cd /d $dir\"
         $shortcut.IconLocation  = \"$bucketsdir\\security\\icon\\nuclei.ico\"
         $shortcut.Save()
     ",
     "pre_uninstall": "
-        $shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"Nuclei.lnk\")
+        $shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"nuclei.lnk\")
         if (Test-Path $shortcutPath) {
             Remove-Item $shortcutPath -Force
         }
