@@ -23,11 +23,7 @@
             "FofaViewer"
         ]
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/wgpsec/fofa_viewer/releases/latest",
-        "jsonpath": "$.tag_name",
-        "regex": "FofaViewer_([\\d.]+?)\\.zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/wgpsec/fofa_viewer/releases/download/$version/FofaViewer_$version.zip"
     }

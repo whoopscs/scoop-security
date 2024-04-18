@@ -24,11 +24,7 @@
             "xmap"
         ]
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/xvvvan/xmap/releases/latest",
-        "jsonpath": "$.tag_name",
-        "regex": "v([\\d.]+)"
-    },
+    "checkver": "github,
     "autoupdate": {
         "url": "https://github.com/xvvvan/xmap/releases/download/$version/xmap-$version-jar-with-dependencies.jar"
     }
