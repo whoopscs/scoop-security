@@ -20,7 +20,7 @@ scoop bucket add sec https://github.com/s0nd9r/scoop-security
 
 ```
 scoop search sec/nuclei
-//或者
+//or
 scoop search nuclei
 ```
 
@@ -78,7 +78,7 @@ scoop uninstall nuclei httpx
 
 ## Featured Apps
 
-**在线查看仓库列表：[s0nd9r/scoop-security](https://scoop.sh/#/apps?q=%22https%3A%2F%2Fgithub.com%2Fs0nd9r%2Fscoop-security%22&o=false&n=true&dm=false)**
+**在线查看仓库列表(自动更新)：[s0nd9r/scoop-security](https://scoop.sh/#/apps?q=%22https%3A%2F%2Fgithub.com%2Fs0nd9r%2Fscoop-security%22&o=false&n=true&dm=false)**
 
 | Manifest        | Description                                                  |
 | --------------- | ------------------------------------------------------------ |
@@ -87,6 +87,8 @@ scoop uninstall nuclei httpx
 | behinder        | “冰蝎”动态二进制加密网站管理客户端                           |
 | blueteamtools   | 蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。 |
 | dddd            | 一款高可拓展的指纹识别、供应链漏洞探测工具。支持从Hunter、Fofa批量拉取目标。 |
+| ffuf            | Fast web fuzzer written in Go                                |
+| fofaviewer      | 一个由WgpSec狼组安全团队开发的FoFa客户端数据查看工具，使用JavaFX编写，支持多标签查询、导出Excel文件等功能。 |
 | fscan           | 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。       |
 | godzilla        | 哥斯拉                                                       |
 | httpx           | httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library. It is designed to maintain result reliability with an increased number of threads |
@@ -96,11 +98,13 @@ scoop uninstall nuclei httpx
 | naabu           | projectdiscovery/naabu: A fast port scanner written in go with a focus on reliability and simplicity. Designed to be used in combination with other tools for attack surface discovery in bug bounties and pentests |
 | notify          | Notify is a Go-based assistance package that enables you to stream the output of several tools (or read from a file) and publish it to a variety of supported platforms |
 | nuclei          | Fast and customizable vulnerability scanner based on simple YAML based DSL |
+| quaker_rs       | Quake Command-Line Application                               |
 | scan4all        | Vulnerabilities Scan；15000+PoC漏洞扫描；[ 23 ] 种应用弱口令爆破；7000+Web指纹；146种协议90000+规则Port扫描；Fuzz、HW打点、BugBounty神器... |
-| xray            | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc |
 | suo5            | 一款高性能 HTTP 代理隧道工具                                 |
+| xray            | 一款完善的安全评估工具，支持常见 web 安全问题扫描和自定义 poc |
 | xpoc            | xpoc 为供应链漏洞扫描设计的快速应急响应工具                  |
 | yakit           | Cyber Security ALL-IN-ONE Platform                           |
+| ...             | ...                                                          |
 
 
 

@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "description": "FoFa、Hunter 数据查看导出客户端",
+    "description": "xmap 是一个用 JavaFX 编写的用户友好的 FOFA、Hunter 客户端",
     "homepage": "https://github.com/xvvvan/xmap",
     "license": "Freeware",
     "suggest": {
@@ -24,7 +24,7 @@
             "xmap"
         ]
     ],
-    "checkver": "github,
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/xvvvan/xmap/releases/download/$version/xmap-$version-jar-with-dependencies.jar"
     }

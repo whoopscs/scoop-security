@@ -13,10 +13,20 @@
             "hash": "d69994742ea1d1b56ecbec07da4c1c490c985c7720c6acff8b7b00f440c23a2d"
         }
     },
+    "pre_install": [
+        "$wsShell = New-Object -ComObject WScript.Shell",
+        "$shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'nuclei.lnk'))",
+        "$shortcut.TargetPath = \"cmd.exe\"",
+        "$shortcut.Arguments  = \"/K cd /d $dir\"",
+        "$shortcut.IconLocation  = \"$bucketsdir\\security\\icon\\nuclei.ico\"",
+        "$shortcut.Save()",
+    ],
+    "pre_uninstall": [
+        "$shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"nuclei.lnk\")",
+        "if (Test-Path $shortcutPath) { Remove-Item $shortcutPath -Force }",
+	],
     "bin": "nuclei.exe",
-    "checkver": {
-        "github": "https://github.com/projectdiscovery/nuclei"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "32bit": {
@@ -26,19 +36,5 @@
                 "url": "https://github.com/projectdiscovery/nuclei/releases/download/v$version/nuclei_$version_windows_amd64.zip"
             }
         }
-    },
-    "pre_install": "
-        $wsShell = New-Object -ComObject WScript.Shell
-        $shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'nuclei.lnk'))
-        $shortcut.TargetPath = \"cmd.exe\"
-        $shortcut.Arguments  = \"/K cd /d $dir\"
-        $shortcut.IconLocation  = \"$bucketsdir\\security\\icon\\nuclei.ico\"
-        $shortcut.Save()
-    ",
-    "pre_uninstall": "
-        $shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"nuclei.lnk\")
-        if (Test-Path $shortcutPath) {
-            Remove-Item $shortcutPath -Force
-        }
-	",
+    }
 }

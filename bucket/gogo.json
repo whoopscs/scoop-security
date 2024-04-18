@@ -3,8 +3,16 @@
     "description": "面向红队的, 高度可控可拓展的自动化引擎",
     "homepage": "https://github.com/chainreactors/gogo",
     "license": "MIT",
-    "url": "https://github.com/chainreactors/gogo/releases/download/v2.11.12/gogo_windows_amd64.exe",
-    "hash": "8ccef887017e67893e184c3d309f2d13eb9be928250f9811cb38c0e6a66f784f",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/projectdiscovery/httpx/releases/download/v1.6.0/gogo_windows_386.zip",
+            "hash": "8ccef887017e67893e184c3d309f2d13eb9be928250f9811cb38c0e6a66f784f"
+        },
+        "64bit": {
+            "url": "https://github.com/chainreactors/gogo/releases/download/v2.11.12/gogo_windows_amd64.exe",
+            "hash": "8ccef887017e67893e184c3d309f2d13eb9be928250f9811cb38c0e6a66f784f"
+        }
+    },
     "bin": "gogo.exe",
     "shortcuts": [
         [
@@ -18,6 +26,13 @@
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_amd64.exe"
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_386.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_amd64.zip"
+            }
+        }
     }
 }

@@ -13,6 +13,18 @@
             "hash": "52c3721a905f04d88efd0c66321fe1b03c64182e55da0d7c0ddcb2f92f479bb6"
         }
     },
+    "pre_install": [
+        "$wsShell = New-Object -ComObject WScript.Shell",
+        "$shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'httpx.lnk'))",
+        "$shortcut.TargetPath = \"cmd.exe\"",
+        "$shortcut.Arguments  = \"/K cd /d $dir\"",
+        "$shortcut.IconLocation  = \"$bucketsdir\\security\\icon\\httpx.ico\"",
+        "$shortcut.Save()",
+    ],
+    "pre_uninstall": [
+        "$shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"httpx.lnk\")",
+        "if (Test-Path $shortcutPath) { Remove-Item $shortcutPath -Force }",
+	],
     "bin": "httpx.exe",
     "checkver": {
         "github": "https://github.com/projectdiscovery/httpx"
@@ -26,19 +38,5 @@
                 "url": "https://github.com/projectdiscovery/httpx/releases/download/v$version/httpx_$version_windows_amd64.zip"
             }
         }
-    },
-    "pre_install": "
-        $wsShell = New-Object -ComObject WScript.Shell
-        $shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'httpx.lnk'))
-        $shortcut.TargetPath = \"cmd.exe\"
-        $shortcut.Arguments  = \"/K cd /d $dir\"
-        $shortcut.IconLocation  = \"$bucketsdir\\security\\icon\\httpx.ico\"
-        $shortcut.Save()
-    ",
-    "pre_uninstall": "
-        $shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"httpx.lnk\")
-        if (Test-Path $shortcutPath) {
-            Remove-Item $shortcutPath -Force
-        }
-	",
+    }
 }
