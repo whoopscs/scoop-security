@@ -14,9 +14,7 @@
         }
     },
     "bin": "notify.exe",
-    "checkver": {
-        "github": "https://github.com/projectdiscovery/notify"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "32bit": {

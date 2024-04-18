@@ -13,6 +13,18 @@
             "hash": "c5bd94392adb788c179acdfffee3db5f71aadc6f9ad9e038e551067535f6fef8"
         }
     },
+    "pre_install": [
+        "$wsShell = New-Object -ComObject WScript.Shell",
+        "$shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'naabu.lnk'))",
+        "$shortcut.TargetPath = \"cmd.exe\"",
+        "$shortcut.Arguments  = \"/K cd /d $dir\"",
+        "$shortcut.IconLocation  = \"$bucketsdir\\security\\icon\\naabu.ico\"",
+        "$shortcut.Save()",
+    ],
+    "pre_uninstall": [
+        "$shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"naabu.lnk\")",
+        "if (Test-Path $shortcutPath) { Remove-Item $shortcutPath -Force }",
+	],
     "bin": "naabu.exe",
     "checkver": "github",
     "autoupdate": {
@@ -24,19 +36,5 @@
                 "url": "https://github.com/projectdiscovery/naabu/releases/download/v$version/naabu_$version_windows_amd64.zip"
             }
         }
-    },
-    "pre_install": ["
-        $wsShell = New-Object -ComObject WScript.Shell
-        $shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'naabu.lnk'))
-        $shortcut.TargetPath = \"cmd.exe\"
-        $shortcut.Arguments  = \"/K cd /d $dir\"
-        $shortcut.IconLocation  = \"$bucketsdir\\security\\icon\\naabu.ico\"
-        $shortcut.Save()
-    "],
-    "pre_uninstall": ["
-        $shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"naabu.lnk\")
-        if (Test-Path $shortcutPath) {
-            Remove-Item $shortcutPath -Force
-        }
-	"],
+    }
 }

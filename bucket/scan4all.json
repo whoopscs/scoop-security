@@ -10,9 +10,7 @@
         }
     },
     "bin": "scan4all.exe",
-    "checkver": {
-        "github": "https://github.com/hktalent/scan4all"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
