@@ -5,10 +5,8 @@
     </p>
 </div>
 
-## Scoop 配置
+## Installation
 
-
-- 执行以下命令订阅本软件仓库：
 
 ```powershell
 scoop bucket add sec https://github.com/s0nd9r/scoop-security
