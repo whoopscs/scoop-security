@@ -6,9 +6,9 @@
     "notes": [
         "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security)."
     ],
-    "url": "https://jar-analyzer.oss-cn-hangzhou.aliyuncs.com/2.13/jar-analyzer-2.13-windows-full.zip",
-    "hash": "71ccfd94a8143c1f65ede48a97042e206272afafe9c56c65a7f91e4e4bb66640",
-    "extract_dir": "jar-analyzer-2.13-windows-full",
+    "url": "https://jar-analyzer.oss-cn-hangzhou.aliyuncs.com/2.14/jar-analyzer-2.14-windows-full.zip",
+    "hash": "64125ccbb825716381505b60faff743d1dd85c045b721b73d8643d10675cd84d",
+    "extract_dir": "jar-analyzer-2.14-windows-full",
     "shortcuts": [
         [
             "start.exe",
