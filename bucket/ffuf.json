@@ -1,8 +1,11 @@
 {
     "version": "2.1.0",
-    "description": "Fast web fuzzer written in Go",
+    "description": "Fast web fuzzer written in Go.(Scoop bucket for Cybersecurity by s0nd9r)",
     "homepage": "https://github.com/ffuf/ffuf",
     "license": "MIT",
+    "notes": [
+        "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security)."
+    ],
     "architecture": {
         "32bit": {
             "url": "https://github.com/ffuf/ffuf/releases/download/v2.1.0/ffuf_2.1.0_windows_386.zip",

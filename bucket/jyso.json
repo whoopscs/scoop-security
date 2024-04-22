@@ -1,8 +1,11 @@
 {
     "version": "1.2.8",
-    "description": "It can be either a JNDIExploit or a ysoserial",
+    "description": "It can be either a JNDIExploit or a ysoserial.(Scoop bucket for Cybersecurity by s0nd9r)",
     "homepage": "https://github.com/qi4L/JYso",
     "license": "Freeware",
+    "notes": [
+        "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security)."
+    ],
     "suggest": {
         "JDK": [
             "java/oraclejdk",
