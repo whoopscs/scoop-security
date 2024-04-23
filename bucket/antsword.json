@@ -4,7 +4,7 @@
     "homepage": "https://github.com/AntSwordProject/AntSword-Loader",
     "license": "Unlicense",
     "notes": [
-        "antSword最新源码已经下载到./antSword目录下，初始化选择该目录重启即可",
+        "antSword最新源码已经下载到./antSword-master目录下，初始化选择该目录重启即可",
         "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security)."
     ],
     "architecture": {
@@ -20,10 +20,9 @@
         }
     },
     "post_install": [
-        "curl.exe -o \"$dir\\antSword.zip\" -L \"https://github.com/AntSwordProject/antSword/archive/refs/heads/master.zip\"",
+        "curl.exe -o \"$dir\\antSword.zip\" -L \"https://gh.llkk.cc/https://github.com/AntSwordProject/antSword/archive/refs/heads/master.zip\"",
         "Expand-7zipArchive \"$dir\\antSword.zip\" \"$dir\"",
-        "Remove-Item \"$dir\\antSword.zip\" -Force -Recurse",
-        "Move-Item \"$dir\\antSword-master\" \"$dir\\antSword\""
+        "Remove-Item \"$dir\\antSword.zip\" -Force -Recurse"
     ],
     "bin": "AntSword.exe",
     "shortcuts": [
