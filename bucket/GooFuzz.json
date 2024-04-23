@@ -1,0 +1,27 @@
+{
+    "version": "1.2.4",
+    "description": "GooFuzz is a tool to perform fuzzing with an OSINT approach.(Scoop bucket for Cybersecurity by s0nd9r)",
+    "homepage": "https://github.com/m3n0sd0n4ld/GooFuzz",
+    "license": "GPL-3.0",
+    "notes": [
+        "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security)."
+    ],
+    "suggest": "Git Bash",
+    "url": "https://github.com/m3n0sd0n4ld/GooFuzz/releases/download/1.2.4/GooFuzz_release_1.2.4.zip",
+    "hash": "f643d33c513f4ad91e2eec77e244413a00be8e2607dac6fca95819f25cc7524d",
+    "pre_install": [
+        "Set-Content \"$dir\\GooFuzz.bat\" '@echo off",
+        "@pushd %~dp0",
+        "$scoopdir\\apps\\git\\current\\bin\\bash.exe -c \"export LC_ALL=en_US.UTF-8&&./GooFuzz %*\"",
+        "@popd' -Encoding Ascii"
+    ],
+    "post_install": [
+        "Move-Item -Path \"$dir\\GooFuzz_release_$version\\*\" -Destination \"$dir\\\"",
+        "Remove-Item \"$dir\\GooFuzz_release_$version\" -Force -Recurse"
+    ],
+    "bin": "GooFuzz.bat",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/m3n0sd0n4ld/GooFuzz/releases/download/$version/GooFuzz_release_$version.zip"
+    }
+}
