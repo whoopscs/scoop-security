@@ -16,6 +16,6 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/x364e3ab6/DudeSuite/releases/download/v$version/DudeSuite_Standard_Win.zip"
+        "url": "https://github.com/x364e3ab6/DudeSuite/releases/download/v$version/DudeSuite_Latest_Win.zip"
     }
 }

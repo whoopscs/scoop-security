@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/robiot/rustcat/releases/download/$version/rcat-$version-win-x86_64.exe"
+                "url": "https://github.com/robiot/rustcat/releases/download/v$version/rcat-v$version-win-x86_64.exe"
             }
         }
     }

@@ -8,7 +8,7 @@
     ],
     "architecture": {
         "32bit": {
-            "url": "https://github.com/projectdiscovery/httpx/releases/download/v1.6.0/gogo_windows_386.zip",
+            "url": "https://github.com/projectdiscovery/httpx/releases/download/v1.6.0/gogo_windows_386.exe",
             "hash": "8ccef887017e67893e184c3d309f2d13eb9be928250f9811cb38c0e6a66f784f"
         },
         "64bit": {
@@ -31,10 +31,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_386.zip"
+                "url": "https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_386.exe"
             },
             "64bit": {
-                "url": "https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_amd64.zip"
+                "url": "https://github.com/chainreactors/gogo/releases/download/v$version/gogo_windows_amd64.exe"
             }
         }
     }

@@ -16,12 +16,12 @@
         "@popd' -Encoding Ascii"
     ],
     "post_install": [
-        "Move-Item -Path \"$dir\\GooFuzz_release_$version\\*\" -Destination \"$dir\\\"",
-        "Remove-Item \"$dir\\GooFuzz_release_$version\" -Force -Recurse"
+        "Move-Item -Path \"$dir\\GooFuzz.v.$version\\*\" -Destination \"$dir\\\"",
+        "Remove-Item \"$dir\\GooFuzz.v.$version\" -Force -Recurse"
     ],
     "bin": "GooFuzz.bat",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/m3n0sd0n4ld/GooFuzz/releases/download/$version/GooFuzz_release_$version.zip"
+        "url": "https://github.com/m3n0sd0n4ld/GooFuzz/releases/download/$version/GooFuzz.v.$version.zip"
     }
 }
