@@ -1,0 +1,23 @@
+{
+    "version": "2.2.2",
+    "description": "一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。(Scoop bucket for Cybersecurity by s0nd9r)",
+    "homepage": "https://github.com/wgpsec/ENScan_GO",
+    "license": "Apache-2.0",
+    "notes": "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security).",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/wgpsec/ENScan_GO/releases/download/0.0.17/enscan-0.0.17-windows-amd64.zip",
+            "hash": "7a2b9ccc4088ed8d7b04d778d56513463d730fe9604946bfcf92b5b24b40d697"
+        }
+    },
+    "persist": "config.yaml",
+    "bin": "enscan.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/wgpsec/ENScan_GO/releases/download/$version/enscan-$version-windows-amd64.zip"
+            }
+        }
+    }
+}
