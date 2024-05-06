@@ -26,12 +26,10 @@
     ],
     "pre_uninstall": [
         "$shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"httpx.lnk\")",
-        "if (Test-Path $shortcutPath) { Remove-Item $shortcutPath -Force }",
+        "if (Test-Path $shortcutPath) { Remove-Item $shortcutPath -Force }"
     ],
     "bin": "httpx.exe",
-    "checkver": {
-        "github": "https://github.com/projectdiscovery/httpx"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "32bit": {
