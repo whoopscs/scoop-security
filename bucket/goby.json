@@ -11,6 +11,12 @@
             "extract_dir": "goby-win-x64-2.9.4"
         }
     },
+    "post_install": [
+        "$wsShell = New-Object -ComObject WScript.Shell",
+        "$shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'Goby.lnk'))",
+        "$shortcut.TargetPath = \"$dir\\Goby.exe\"",
+        "$shortcut.Save()"
+    ],
     "bin": [
         [
             "Goby.exe",
