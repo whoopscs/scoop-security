@@ -19,7 +19,11 @@
     "post_install": [
         "ensure \"$persist_dir\" | Out-Null",
         "$filesToDelete = Get-ChildItem -Path \"$persist_dir\\yakit-projects\\yak-engine\" -Recurse | Where-Object { $_.Name -match '^yak-v\\d'}",
-        "foreach ($file in $filesToDelete) { Remove-Item $file.FullName -Force;  Write-Host \"已删除旧版本yak.exe文件: $($file.FullName)\"; }"
+        "foreach ($file in $filesToDelete) { Remove-Item $file.FullName -Force;  Write-Host \"已删除旧版本yak.exe文件: $($file.FullName)\"; }",
+        "$wsShell = New-Object -ComObject WScript.Shell",
+        "$shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'Yakit.lnk'))",
+        "$shortcut.TargetPath = \"$dir\\Yakit.exe\"",
+        "$shortcut.Save()"
     ],
     "bin": "Yakit.exe",
     "shortcuts": [
