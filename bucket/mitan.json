@@ -1,19 +1,17 @@
 {
-    "version": "1.08",
+    "version": "1.09",
     "description": "密探渗透测试工具包含域名查询，搜索语法，资产测绘（FOFA，Hunter，quake），指纹识别，敏感信息采集，文件扫描、密码字典等功能。(Scoop bucket for Cybersecurity by s0nd9r)",
     "homepage": "https://github.com/kkbo8005/mitan",
     "license": "Unknown",
-    "notes": [
-        "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security)."
-    ],
+    "notes": "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security).",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
             "java/openjdk"
         ]
     },
-    "url": "https://github.com/kkbo8005/mitan/releases/download/1.08/mitan.zip",
-    "hash": "ca0ac1bf56c019328f80aecdeea631d03522f8d93093e60539eedeaf7d9ee551",
+    "url": "https://github.com/kkbo8005/mitan/releases/download/1.09/mitan.zip",
+    "hash": "877e0908ac4f5e7be618704268d2812b76d786f93804af08f201efaa1fee1c55",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/kkbo8005/mitan/releases/download/$version/mitan.zip"
