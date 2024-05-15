@@ -4,7 +4,7 @@
     "homepage": "https://github.com/jar-analyzer/jar-analyzer",
     "license": "Freeware",
     "notes": "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security).",
-    "url": "https://jar-analyzer.oss-cn-hangzhou.aliyuncs.com/2.15/jar-analyzer-2.15-windows-full.zip",
+    "url": "https://github.com/jar-analyzer/jar-analyzer/releases/download/2.15/jar-analyzer-2.15-windows-full.zip",
     "hash": "fe8af077798fdc626ffcd2beb8102406f55c07e86c0ae09a3d9a38e3806c4fd2",
     "extract_dir": "jar-analyzer-2.15-windows-full",
     "shortcuts": [
@@ -15,7 +15,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://jar-analyzer.oss-cn-hangzhou.aliyuncs.com/$version/jar-analyzer-$version-windows-full.zip",
+        "url": "https://github.com/jar-analyzer/jar-analyzer/releases/download/$version/jar-analyzer-$version-windows-full.zip",
         "extract_dir": "jar-analyzer-$version-windows-full"
     }
 }
