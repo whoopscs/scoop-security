@@ -3,7 +3,11 @@
     "description": "交互式应用安全测试平台 - Cyber Security ALL-IN-ONE Platform.(Scoop bucket for Cybersecurity by s0nd9r)",
     "homepage": "https://www.yaklang.io",
     "license": "AGPL-3.0",
-    "notes": "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security).",
+    "notes": [
+        "Yakit 已添加桌面快捷方式,请尽情享用~(未知BUG:快捷方式运行时，yak引擎会跟随在桌面创建build文件夹)",
+        "请尽量使用 scoop 进行版本更新，更新命令：scoop update yakit",
+        "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security)."
+    ],
     "architecture": {
         "64bit": {
             "url": "https://yaklang.oss-cn-beijing.aliyuncs.com/yak/1.3.2-sp5/Yakit-1.3.2-sp5-windows-amd64.exe#/dl.7z",
