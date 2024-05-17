@@ -1,12 +1,12 @@
 {
-    "version": "1.3.1",
+    "version": "1.3.2",
     "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws.(Scoop bucket for Cybersecurity by s0nd9r)",
     "homepage": "https://github.com/r0oth3x49/ghauri",
     "license": "MIT",
     "notes": "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security).",
     "suggest": "python3",
-    "url": "https://github.com/r0oth3x49/ghauri/archive/refs/tags/1.3.1.zip",
-    "hash": "e6804e5ffa3c7b4c45aee269164031a3c04c5f637039c0bd9d47de7ec8ae6cc0",
+    "url": "https://github.com/r0oth3x49/ghauri/archive/refs/tags/1.3.2.zip",
+    "hash": "2625ba57e363314c8f3e786b59759e118a2e0702e3d97e17e9f2f65c2365ea60",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/r0oth3x49/ghauri/archive/refs/tags/$version.zip"
