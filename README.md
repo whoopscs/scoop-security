@@ -4,7 +4,7 @@
         Scoop bucket for Penetration Testing and Cybersecurity related tools.
     </p>
     <p align="center">
-        scoop-security 是一个用于渗透测试和网络安全相关工具下载、安装和自动更新的Scoop bucket仓库。
+        scoop-security 是一个用于渗透测试和网络安全相关工具下载、安装和自动更新的Scoop软件仓库。
     </p>
 </div>
 
