@@ -84,11 +84,14 @@ curl -o scoop_install.ps1 https://gh.llkk.cc/https://raw.githubusercontent.com/s
 
 ### 给scoop设置全局代理
 
-在国内访问github总是不成功，而且scoop的大部分包都在github，那么将scoop的下载配置代理，将会极大的提高效率。
+在国内访问github总是不成功，而且scoop的大部分包都在github，那么配置scoop的下载代理，将会极大的提高效率。
 
 ```powershell
 # 设置全局代理
 scoop config proxy 127.0.0.1:7890
+
+# 取消代理：
+scoop config proxy None
 ```
 
 
