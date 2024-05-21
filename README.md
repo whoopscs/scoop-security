@@ -96,7 +96,7 @@ scoop config proxy None
 
 
 
-### 安装该软件仓库中的软件
+### 安装本软件仓库中的软件
 
 确保你已经有 Scoop 环境后，执行以下命令订阅本软件仓库：
 
@@ -111,17 +111,23 @@ scoop bucket add sec https://github.com/s0nd9r/scoop-security
 
 ```powershell
 scoop search sec/nuclei
-//or
+//或者
 scoop search nuclei
 ```
 
 - 安装本仓库中的软件：
 
 ```powershell
+scoop install sec/nuclei
+//或者
 scoop install nuclei
 ```
 
-大多数情况下，是可以省略仓库别名 `sec/`，只需要执行类似 `scoop install nuclei` 的命令，除非安装的多个仓库都有此软件，则需要指定安装仓库来源
+大多数情况下，是可以省略仓库别名 `sec/`，只需要执行类似 `scoop install nuclei` 的命令，除非安装的多个仓库都有此软件，则需要指定安装来源仓库
+
+- <span style="color: red;">使用安装的软件</span>
+  1. **所有软件均可在任意位置打开命令行，输入文件名直接运行**
+  2. 少量EXE可执行文件（Yakit、Goby），将同时在桌面创建快捷方式
 
 
 
