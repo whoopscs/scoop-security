@@ -11,7 +11,33 @@
         ]
     },
     "url": "https://github.com/kkbo8005/mitan/releases/download/1.10/mitan.zip",
-    "hash": "d5726c33db65e4974578814f13e53072d102509fb02fd02a82c0c9d18145090f",
+    "hash": "49105c934192e70cdcc02e98dc70da16577df103117ec011717f87845bd4aa17",
+    "pre_install": [
+        "$javaVersion = (Get-Command java | Select-Object -ExpandProperty Version).ToString();",
+        "$versionNumber = [version]$javaVersion.Split('_')[0];",
+        "if ($versionNumber.Major -ge 11) {",
+        "    Write-Host \"当前Java版本≥11，默认不包含JavaFX，开始下载JavaFX模块...\";",
+        "    $url = 'https://download2.gluonhq.com/openjfx/17.0.11/openjfx-17.0.11_windows-x64_bin-sdk.zip';",
+        "    $output = Join-Path $dir (Split-Path -Path $url -Leaf);",
+        "    Invoke-WebRequest -Uri $url -OutFile $output;",
+        "    Expand-Archive -LiteralPath $output -DestinationPath $dir;",
+        "    Write-Host \"JavaFX模块已下载并解压到 $dir\";",
+        "    Set-Content \"$dir\\mitan.bat\" '@pushd %~dp0",
+        "    @start javaw.exe --module-path \"%~dp0\\javafx-sdk-17.0.11\\lib\" --add-modules javafx.controls,javafx.fxml -jar \"mitan-jar-with-dependencies.jar\" %*",
+        "    @popd' -Encoding Ascii",
+        "} else {",
+        "    Write-Host \"当前Java版本为 $javaVersion，不需要下载JavaFX扩展包。\";",
+        "    Set-Content \"$dir\\mitan.bat\" '@pushd %~dp0",
+        "    @start javaw.exe -jar \"mitan-jar-with-dependencies.jar\" %*",
+        "    @popd' -Encoding Ascii",
+        "}"
+    ],
+    "bin": [
+        [
+            "mitan.bat",
+            "mitan"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/kkbo8005/mitan/releases/download/$version/mitan.zip"
