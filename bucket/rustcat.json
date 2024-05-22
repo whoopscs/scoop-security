@@ -13,7 +13,8 @@
     "bin": [
         [
             "rcat-v3.0.0-win-x86_64.exe",
-            "rcat"
+            "rcat",
+            "rustcat"
         ]
     ],
     "checkver": "github",

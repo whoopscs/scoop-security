@@ -6,12 +6,7 @@
     "notes": "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security).",
     "url": "https://github.com/x364e3ab6/DudeSuite/releases/download/v1.4.0.7/DudeSuite_Latest_Win.zip",
     "hash": "f8a2f7192ecb7a3a773091e03f963ae69c81b0ad006a11e8fc91b1fb91b6fd27",
-    "shortcuts": [
-        [
-            "Dude.exe",
-            "Dude"
-        ]
-    ],
+    "bin": "Dude.exe",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/x364e3ab6/DudeSuite/releases/download/v$version/DudeSuite_Latest_Win.zip"

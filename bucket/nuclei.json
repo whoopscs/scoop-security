@@ -14,18 +14,6 @@
             "hash": "e00f3cf5714d62514e822d8fa63bbd837f4995ad0f50ea10794b2bc39a22f022"
         }
     },
-    "pre_install": [
-        "$wsShell = New-Object -ComObject WScript.Shell",
-        "$shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'nuclei.lnk'))",
-        "$shortcut.TargetPath = \"cmd.exe\"",
-        "$shortcut.Arguments  = \"/K cd /d $dir\"",
-        "$shortcut.IconLocation  = \"$bucketsdir\\security\\icon\\nuclei.ico\"",
-        "$shortcut.Save()"
-    ],
-    "pre_uninstall": [
-        "$shortcutPath = [System.IO.Path]::Combine([System.Environment]::GetFolderPath(\"Desktop\"), \"nuclei.lnk\")",
-        "if (Test-Path $shortcutPath) { Remove-Item $shortcutPath -Force }"
-    ],
     "bin": "nuclei.exe",
     "checkver": "github",
     "autoupdate": {

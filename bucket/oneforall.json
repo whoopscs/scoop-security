@@ -6,10 +6,12 @@
     "notes": [
         "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security)."
     ],
-    "suggest": "python3.6+",
+    "suggest": {
+        "Python": "python"
+    },
     "url": "https://github.com/shmilylty/OneForAll/archive/refs/tags/v0.4.5.zip",
     "hash": "ed7854064b454764bb7295865184e7ece8abe9d5ccdbe1734cb709c62bc3243e",
-    "pre_install": "Set-Content \"$dir\\oneforall.bat\" '@pushd %~dp0\npython3 \"oneforall.py\" %*\n@popd' -Encoding Ascii",
+    "pre_install": "Set-Content \"$dir\\oneforall.bat\" '@pushd %~dp0\npython \"oneforall.py\" %*\n@popd' -Encoding Ascii",
     "post_install": [
         "Move-Item -Path \"$dir\\OneForAll-$version\\*\" -Destination \"$dir\\\"",
         "Remove-Item \"$dir\\OneForAll-$version\" -Force -Recurse",

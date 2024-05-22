@@ -15,12 +15,6 @@
         }
     },
     "bin": "gogo.exe",
-    "shortcuts": [
-        [
-            "gogo.exe",
-            "Gogo"
-        ]
-    ],
     "checkver": {
         "url": "https://api.github.com/repos/chainreactors/gogo/releases/latest",
         "jsonpath": "$.tag_name",

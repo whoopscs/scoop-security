@@ -7,9 +7,13 @@
     "url": "https://github.com/jar-analyzer/jar-analyzer/releases/download/2.16/jar-analyzer-2.16-windows-full.zip",
     "hash": "b24147a0a26fdfe2d779e7f2fd5e1a7653b7cea3c42a4b4bb487b1b3132a7924",
     "extract_dir": "jar-analyzer-2.16-windows-full",
+    "pre_install": [
+        "Rename-Item \"$dir\\start.exe\" 'jar-analyzer.exe'"
+    ],
+    "bin": "jar-analyzer.exe",
     "shortcuts": [
         [
-            "start.exe",
+            "jar-analyzer.exe",
             "Jar Analyzer"
         ]
     ],

@@ -13,7 +13,13 @@
     "shortcuts": [
         [
             "suo5-gui-windows.exe",
-            "Suo5-gui"
+            "suo5-gui"
+        ]
+    ],
+    "bin": [
+        [
+            "suo5-gui-windows.exe",
+            "suo5"
         ]
     ],
     "checkver": "github",
