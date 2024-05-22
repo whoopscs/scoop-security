@@ -6,12 +6,14 @@
     "notes": [
         "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security)."
     ],
-    "suggest": "python3.x|2.6|2.7",
+    "suggest": {
+        "Python": "python"
+    },
     "url": "https://github.com/sqlmapproject/sqlmap/archive/refs/tags/1.8.zip",
     "hash": "f4f4621b446538c89224d09ff428c2bdbec5d4d2684ab7423563fde54452bb69",
     "pre_install": [
         "Set-Content \"$dir\\sqlmap.bat\" '@pushd %~dp0",
-        "python3 \"sqlmap.py\" %*",
+        "python \"sqlmap.py\" %*",
         "@popd' -Encoding Ascii"
     ],
     "post_install": [

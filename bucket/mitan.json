@@ -4,6 +4,7 @@
     "homepage": "https://github.com/kkbo8005/mitan",
     "license": "Unknown",
     "notes": "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security).",
+    "depends": "javafx",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
@@ -15,18 +16,12 @@
     "pre_install": [
         "$javaVersion = (Get-Command java | Select-Object -ExpandProperty Version).ToString();",
         "$versionNumber = [version]$javaVersion.Split('_')[0];",
+        "$pathToFx = [System.Environment]::GetEnvironmentVariable('PATH_TO_FX');",
         "if ($versionNumber.Major -ge 11) {",
-        "    Write-Host \"当前Java版本≥11，默认不包含JavaFX，开始下载JavaFX模块...\";",
-        "    $url = 'https://download2.gluonhq.com/openjfx/17.0.11/openjfx-17.0.11_windows-x64_bin-sdk.zip';",
-        "    $output = Join-Path $dir \"javafx-sdk.zip\";",
-        "    Invoke-WebRequest -Uri $url -OutFile $output;",
-        "    Expand-Archive -LiteralPath $output -DestinationPath $dir;",
-        "    Write-Host \"JavaFX模块已下载并解压到 $dir\";",
         "    Set-Content \"$dir\\mitan.bat\" '@pushd %~dp0",
-        "    @start javaw.exe --module-path \"%~dp0\\javafx-sdk\\lib\" --add-modules javafx.controls,javafx.fxml -jar \"mitan-jar-with-dependencies.jar\" %*",
+        "    @start javaw.exe --module-path \"$pathToFx\" --add-modules javafx.controls,javafx.fxml -jar \"mitan-jar-with-dependencies.jar\" %*",
         "    @popd' -Encoding Ascii",
         "} else {",
-        "    Write-Host \"当前Java版本为 $javaVersion，不需要下载JavaFX扩展包。\";",
         "    Set-Content \"$dir\\mitan.bat\" '@pushd %~dp0",
         "    @start javaw.exe -jar \"mitan-jar-with-dependencies.jar\" %*",
         "    @popd' -Encoding Ascii",
