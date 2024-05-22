@@ -16,10 +16,9 @@
     "pre_install": [
         "$javaVersion = (Get-Command java | Select-Object -ExpandProperty Version).ToString();",
         "$versionNumber = [version]$javaVersion.Split('_')[0];",
-        "$pathToFx = [System.Environment]::GetEnvironmentVariable('PATH_TO_FX');",
         "if ($versionNumber.Major -ge 11) {",
         "    Set-Content \"$dir\\mitan.bat\" '@pushd %~dp0",
-        "    @start javaw.exe --module-path \"$pathToFx\" --add-modules javafx.controls,javafx.fxml -jar \"mitan-jar-with-dependencies.jar\" %*",
+        "    @start javaw.exe --module-path %PATH_TO_FX% --add-modules javafx.controls,javafx.fxml -jar \"mitan-jar-with-dependencies.jar\" %*",
         "    @popd' -Encoding Ascii",
         "} else {",
         "    Set-Content \"$dir\\mitan.bat\" '@pushd %~dp0",

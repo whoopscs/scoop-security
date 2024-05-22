@@ -1,7 +1,7 @@
 {
     "description": "OpenJFX is an open source, next generation client application platform for desktop, mobile and embedded systems built on Java.(Scoop bucket for Cybersecurity by s0nd9r)",
     "homepage": "https://openjfx.io/",
-    "version": "17.0.10",
+    "version": "17.0.11",
     "license": "GPL-2.0-only WITH Classpath-exception-2.0",
     "notes": [
         "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security)."
@@ -11,15 +11,11 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://download2.gluonhq.com/openjfx/17.0.10/openjfx-17.0.10_windows-x64_bin-sdk.zip",
-            "hash": "07841e6fdf33adc9e9ea95829fdb39f09b7e483d8cd8a29ace474961bc676272"
-        },
-        "32bit": {
-            "url": "https://download2.gluonhq.com/openjfx/17.0.10/openjfx-17.0.10_windows-x86_bin-sdk.zip",
-            "hash": "538e21a004ef161552aa055730df95031a53edc6faa7ea7b1d1bc869dc6f2a20"
+            "url": "https://download2.gluonhq.com/openjfx/17.0.10/openjfx-17.0.11_windows-x64_bin-sdk.zip",
+            "hash": "fcc52b66b74aed6b9c9252ee55f9eb39f9eabe3d0a712f2dd165554a35fccbb6"
         }
     },
-    "extract_dir": "javafx-sdk-17.0.10",
+    "extract_dir": "javafx-sdk-17.0.11",
     "env_set": {
         "PATH_TO_FX": "$dir\\lib"
     },
@@ -32,9 +28,6 @@
         "architecture": {
             "64bit": {
                 "url": "https://download2.gluonhq.com/openjfx/$version/openjfx-$version_windows-x64_bin-sdk.zip"
-            },
-            "32bit": {
-                "url": "https://download2.gluonhq.com/openjfx/$version/openjfx-$version_windows-x86_bin-sdk.zip"
             }
         },
         "extract_dir": "javafx-sdk-$version",
