@@ -12,7 +12,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download2.gluonhq.com/openjfx/17.0.11/openjfx-17.0.11_windows-x64_bin-sdk.zip",
-            "hash": "fcc52b66b74aed6b9c9252ee55f9eb39f9eabe3d0a712f2dd165554a35fccbb6"
+            "hash": "84d763bf63694310ee630b38ca31f601254b2cfec3368be274d66bd3ab301a6a"
         }
     },
     "extract_dir": "javafx-sdk-17.0.11",
