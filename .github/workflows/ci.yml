@@ -57,3 +57,4 @@ jobs:
 #         run: |
 #           $env:SCOOP_HOME="$(Convert-Path '.\scoop_core')"
 #           .\my_bucket\bin\test.ps1
+# 禁用模板检查，“属性不存在”错误会导致自动化任务执行失败
