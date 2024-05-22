@@ -18,7 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/wgpsec/ENScan_GO/releases/download/$version/enscan-$version-windows-amd64.zip"
+                "url": "https://github.com/wgpsec/ENScan_GO/releases/download/v$version/enscan-v$version-windows-amd64.zip"
             }
         }
     }
