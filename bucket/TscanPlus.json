@@ -19,10 +19,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_windows_amd64_v$version.zip"
+                "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Amd64_v$version.zip"
             },
             "arm64": {
-                "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_windows_arm64_v$version.zip"
+                "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Arm64_v$version.zip"
             }
         }
     }
