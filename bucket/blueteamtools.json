@@ -25,7 +25,7 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v$version/BlueTeamToolsV$version.zip",
+        "url": "https://github.com/abc123info/BlueTeamTools/releases/download/v$version/BlueTeamToolsV$version.jar",
         "extract_dir": "BlueTeamToolsV$version"
     }
 }
