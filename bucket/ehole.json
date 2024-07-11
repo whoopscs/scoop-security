@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/EdgeSecurityTeam/EHole/releases/download/$version/Ehole$version-Win.zip"
+                "url": "https://github.com/EdgeSecurityTeam/EHole/releases/download/v$version/EHole_windows_amd64.zip"
             }
         }
     }
