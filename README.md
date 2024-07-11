@@ -29,14 +29,6 @@ scoop bucket add sec https://github.com/s0nd9r/scoop-security
 
 ## Known Apps
 
-
----
-
-> | **关注持续更新, 有问题提 issue**
-
----
-
-
 ### Apps
 
 | 软件 | 描述 | 安装 |
@@ -110,17 +102,21 @@ scoop bucket add sec https://github.com/s0nd9r/scoop-security
 | [proguard](https://github.com/Guardsquare/proguard) | ProGuard 是一个免费的 Java 字节码压缩器、优化器、混淆器和预验证器 | scoop install proguard |
 | [mitan](https://github.com/kkbo8005/mitan) | 密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、密码字典等功能 | scoop install mitan |
 | [proxify](https://github.com/projectdiscovery/proxify) | A versatile and portable proxy for capturing, manipulating, and replaying HTTP/HTTPS traffic on the go. | scoop install proxify |
+| [xapp](https://github.com/chaitin/xapp) | 专注于web指纹识别的工具 | scoop install xapp |
 | ...                                                       | ...                                                          | ...                         |
 
 
 
 ### Burp Extensions
 
+> 增加部分Burp插件自动更新，Burp添加插件时选择`{插件名}/current/`文件夹下的程序，避免版本更新后需重复添加插件的问题
+
 | 软件                                                 | 描述                                                         | 安装                       |
 | ---------------------------------------------------- | ------------------------------------------------------------ | -------------------------- |
 | [HaE](https://github.com/gh0stkey/HaE)               | Highlighter and Extractor, Empower ethical hacker for efficient operations | scoop install HaE          |
 | [CaA](https://github.com/gh0stkey/CaA)               | CaA是一个基于BurpSuite Java插件API开发的流量收集和分析插件   | scoop install CaA          |
 | [RouteVulScan](https://github.com/F6JO/RouteVulScan) | Route Vulnerable scanning 递归式被动检测脆弱路径的burp插件   | scoop install RouteVulScan |
+| ...                                                  | ...                                                          | ...                        |
 
 
 
@@ -134,6 +130,7 @@ scoop bucket add sec https://github.com/s0nd9r/scoop-security
 | [winscp](https://winscp.net)                                 | 一个Windows环境下使用SSH的开源图形化SFTP客户端     | scoop install winscp           |
 | [HashCalculator](https://github.com/hrpzcf/HashCalculator)   | 文件哈希值批量计算器                               | scoop install HashCalculator   |
 | [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher) | PC版微信/QQ/TIM防撤回补丁                          | scoop install RevokeMsgPatcher |
+| ...                                                          | ...                                                | ...                            |
 
 
 
