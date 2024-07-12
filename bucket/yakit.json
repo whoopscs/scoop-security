@@ -4,7 +4,6 @@
     "homepage": "https://www.yaklang.io",
     "license": "AGPL-3.0",
     "notes": [
-        "Yakit 已添加桌面快捷方式,请尽情享用~(未知BUG:快捷方式运行时，yak引擎会跟随在桌面创建build文件夹)",
         "请尽量使用 scoop 进行版本更新，更新命令：scoop update yakit",
         "Scoop bucket for Cybersecurity by s0nd9r(https://github.com/s0nd9r/scoop-security)."
     ],
@@ -26,8 +25,22 @@
         "foreach ($file in $filesToDelete) { Remove-Item $file.FullName -Force;  Write-Host \"已删除旧版本yak.exe文件: $($file.FullName)\"; }",
         "$wsShell = New-Object -ComObject WScript.Shell",
         "$shortcut = $wsShell.CreateShortcut([System.IO.Path]::Combine($env:USERPROFILE, 'Desktop', 'Yakit.lnk'))",
-        "$shortcut.TargetPath = \"$dir\\Yakit.exe\"",
+        "$shortcut.TargetPath = \"powershell.exe\"",
+        "$shortcut.Arguments = \"-NoProfile -ExecutionPolicy Bypass -Command pushd `\"$dir`\"; .\\Yakit.exe \\%*; popd\"",
+        "$shortcut.IconLocation  = \"$dir\\Yakit.exe,0\"",
         "$shortcut.Save()"
+    ],
+    "pre_uninstall": [
+        "$desktopPath = Join-Path $env:USERPROFILE '\\Desktop'",
+        "$shortcutName = 'Yakit.lnk'",
+        "$shortcutPath = Join-Path $desktopPath $shortcutName",
+        "Write-Host ([Environment]::NewLine + 'Checking for desktop shortcut at: ' + $shortcutPath)",
+        "if (Test-Path $shortcutPath) {",
+        "    Write-Host ('Deleting desktop shortcut: ' + $shortcutPath)",
+        "    Remove-Item $shortcutPath -Force",
+        "} else {",
+        "    Write-Host ('Desktop shortcut not found at: ' + $shortcutPath)",
+        "}"
     ],
     "bin": "Yakit.exe",
     "shortcuts": [
