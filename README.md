@@ -22,7 +22,7 @@
 确保你已经有 Scoop 环境后，执行以下命令订阅本软件仓库：
 
 ```powershell
-scoop bucket add sec https://github.com/s0nd9r/scoop-security
+scoop bucket add sec https://github.com/whoopscs/scoop-security
 ```
 
 
@@ -137,7 +137,7 @@ scoop bucket add sec https://github.com/s0nd9r/scoop-security
 ## Question
 **1. I want some other apps!**
 
-Please open new app request [issue](https://github.com/s0nd9r/scoop-security/issues) :)
+Please open new app request [issue](https://github.com/whoopscs/scoop-security/issues) :)
 
 Please consider submitting your new app pull requests to the official buckets if
 they satisfy the criteria before opening new app request in my bucket.
