@@ -94,7 +94,7 @@ scoop config proxy None
 ```powershell
 //scoop bucket add <仓库别名> <仓库地址>
 
-scoop bucket add sec https://github.com/s0nd9r/scoop-security
+scoop bucket add sec https://github.com/whoopscs/scoop-security
 ```
 
 - 查找软件
