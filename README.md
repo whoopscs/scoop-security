@@ -146,3 +146,4 @@ they satisfy the criteria before opening new app request in my bucket.
 
 ## Thanks
 - [ScoopInstaller/Scoop: A command-line installer for Windows.](https://github.com/ScoopInstaller/Scoop)
+- [arch3rPro/PST-Bucket](https://github.com/arch3rPro/PST-Bucket)
