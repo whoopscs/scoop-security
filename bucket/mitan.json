@@ -13,7 +13,6 @@
     },
     "url": "https://github.com/kkbo8005/mitan/releases/download/1.14/mitan1.14.zip",
     "hash": "79ffef8b47edbc39cd7a15ec6f48c652e392d8214dc3b15dccd84c3cfc7db20e",
-    "extract_dir": "mitan",
     "pre_install": [
         "Rename-Item \"$dir\\mitan-jar-with-dependencies.jar\" 'mitan.jar'",
         "$javaVersion = (Get-Command java | Select-Object -ExpandProperty Version).ToString();",
