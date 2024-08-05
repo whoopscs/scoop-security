@@ -38,8 +38,8 @@ scoop bucket add sec https://github.com/whoopscs/scoop-security
 | [Behinder](https://github.com/rebeyond/Behinder) | “冰蝎”动态二进制加密网站管理客户端 | scoop install Behinder |
 | [Godzilla](https://github.com/BeichenDream/Godzilla) | 哥斯拉 | scoop install Godzilla |
 | [BlueTeamTools](https://github.com/abc123info/BlueTeamTools) | 蓝队分析研判工具箱，功能包括内存马反编译分析、各种代码格式化、网空资产测绘功能、溯源辅助、解密冰蝎流量、解密哥斯拉流量、解密Shiro/CAS/Log4j2的攻击payload、IP/端口连接分析、各种编码/解码功能、蓝队分析常用网址、java反序列化数据包分析、Java类名搜索、Fofa搜索、Hunter搜索等。 | scoop install BlueTeamTools |
-| [burpsuite](https://portswigger.net) | nan | scoop install burpsuite |
-| [cobaltstrike](https://www.cobaltstrike.com) | nan | scoop install cobaltstrike |
+| [burpsuite](https://portswigger.net) | None | scoop install burpsuite |
+| [cobaltstrike](https://www.cobaltstrike.com) | None | scoop install cobaltstrike |
 | [commix](https://github.com/commixproject/commix) | 一个开源渗透测试工具，可自动检测和利用命令注入漏洞 | scoop install commix |
 | [crawlergo](https://github.com/Qianlitp/crawlergo) | 一款功能强大的浏览器爬虫，用于扫描网页漏洞 | scoop install crawlergo |
 | [dddd](https://github.com/SleepingBag945/dddd) | 一款高可拓展的指纹识别、供应链漏洞探测工具。支持从Hunter、Fofa批量拉取目标。 | scoop install dddd |
@@ -103,20 +103,27 @@ scoop bucket add sec https://github.com/whoopscs/scoop-security
 | [mitan](https://github.com/kkbo8005/mitan) | 密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、密码字典等功能 | scoop install mitan |
 | [proxify](https://github.com/projectdiscovery/proxify) | A versatile and portable proxy for capturing, manipulating, and replaying HTTP/HTTPS traffic on the go. | scoop install proxify |
 | [xapp](https://github.com/chaitin/xapp) | 专注于web指纹识别的工具 | scoop install xapp |
+| [XiebroC2](https://github.com/INotGreen/XiebroC2) | 支持多人协作渗透测试图形框架。</br>Supports multi-person collaborative penetration testing graphical framework. | scoop install XiebroC2 |
 | ...                                                       | ...                                                          | ...                         |
 
 
 
 ### Burp Extensions
 
-> 增加部分Burp插件自动更新，Burp添加插件时选择`{插件名}/current/`文件夹下的程序，避免版本更新后需重复添加插件的问题
+> 增加部分Burp插件自动更新，BurpSuite 添加插件时，请选择插件目录中`current`文件夹下的程序，避免版本更新后需重复添加插件的问题
 
-| 软件                                                 | 描述                                                         | 安装                       |
-| ---------------------------------------------------- | ------------------------------------------------------------ | -------------------------- |
-| [HaE](https://github.com/gh0stkey/HaE)               | Highlighter and Extractor, Empower ethical hacker for efficient operations | scoop install HaE          |
-| [CaA](https://github.com/gh0stkey/CaA)               | CaA是一个基于BurpSuite Java插件API开发的流量收集和分析插件   | scoop install CaA          |
-| [RouteVulScan](https://github.com/F6JO/RouteVulScan) | Route Vulnerable scanning 递归式被动检测脆弱路径的burp插件   | scoop install RouteVulScan |
-| ...                                                  | ...                                                          | ...                        |
+| 软件                                                         | 描述                                                         | 安装                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------- |
+| [BurpShiroPassiveScan](https://github.com/pmiaowu/BurpShiroPassiveScan) | 一款基于BurpSuite的被动式shiro检测插件                       | scoop install BurpShiroPassiveScan  |
+| [BurpFastJsonScan](https://github.com/pmiaowu/BurpFastJsonScan) | 一款基于BurpSuite的被动式FastJson检测插件                    | scoop install BurpFastJsonScan      |
+| [sqlmap4burp-plus-plus](https://github.com/c0ny1/sqlmap4burp-plus-plus) | burp联动sqlmap插件                                           | scoop install sqlmap4burp-plus-plus |
+| [HaE](https://github.com/gh0stkey/HaE)                       | Highlighter and Extractor, Empower ethical hacker for efficient operations | scoop install HaE                   |
+| [CaA](https://github.com/gh0stkey/CaA)                       | CaA是一个基于BurpSuite Java插件API开发的流量收集和分析插件   | scoop install CaA                   |
+| [RouteVulScan](https://github.com/F6JO/RouteVulScan)         | 递归式被动检测脆弱路径的burp插件</br>Route Vulnerable scanning | scoop install RouteVulScan          |
+| [TsojanScan](https://github.com/Tsojan/TsojanScan)           | 一个集成的BurpSuite漏洞探测插件</br>An integrated BurpSuite vulnerability detection plug-in. | scoop install TsojanScan            |
+| [OneScan](https://github.com/vaycore/OneScan)                | OneScan是递归目录扫描的BurpSuite插件                         | scoop install OneScan               |
+| [BypassPro](https://github.com/0x727/BypassPro)              | 对权限绕过自动化bypass的burpsuite插件                        | scoop install BypassPro             |
+| ...                                                          | ...                                                          | ...                                 |
 
 
 
