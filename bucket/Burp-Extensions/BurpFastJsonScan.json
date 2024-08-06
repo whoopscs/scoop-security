@@ -27,7 +27,11 @@
         "BurpFastJsonScan-jdk11",
         "BurpFastJsonScan-jdk14"
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/pmiaowu/BurpFastJsonScan/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "BurpFastJsonScan-([\\d.]+)"
+    },
     "autoupdate": {
         "url": [
             "https://github.com/pmiaowu/BurpFastJsonScan/releases/download/BurpFastJsonScan-$version/BurpFastJsonScan-$version-jdk1.8.zip",

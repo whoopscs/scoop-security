@@ -27,7 +27,11 @@
         "BurpShiroPassiveScan-jdk11",
         "BurpShiroPassiveScan-jdk14"
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/pmiaowu/BurpShiroPassiveScan/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "BurpShiroPassiveScan-([\\d.]+)"
+    },
     "autoupdate": {
         "url": [
             "https://github.com/pmiaowu/BurpShiroPassiveScan/releases/download/BurpShiroPassiveScan-$version/BurpShiroPassiveScan-$version-jdk1.8.jar",
