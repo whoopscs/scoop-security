@@ -104,6 +104,7 @@ scoop bucket add sec https://github.com/whoopscs/scoop-security
 | [proxify](https://github.com/projectdiscovery/proxify) | A versatile and portable proxy for capturing, manipulating, and replaying HTTP/HTTPS traffic on the go. | scoop install proxify |
 | [xapp](https://github.com/chaitin/xapp) | 专注于web指纹识别的工具 | scoop install xapp |
 | [XiebroC2](https://github.com/INotGreen/XiebroC2) | 支持多人协作渗透测试图形框架。</br>Supports multi-person collaborative penetration testing graphical framework. | scoop install XiebroC2 |
+| [feroxbuster](https://github.com/epi052/feroxbuster) | 一个用 Rust 编写的快速，简单，递归的内容发现工具。</br>A fast, simple, recursive content discovery tool written in Rust. | scoop install feroxbuster |
 | ...                                                       | ...                                                          | ...                         |
 
 
