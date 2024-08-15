@@ -34,9 +34,9 @@
     },
     "autoupdate": {
         "url": [
-            "https://github.com/pmiaowu/BurpShiroPassiveScan/releases/download/BurpShiroPassiveScan-$version/BurpShiroPassiveScan-$version-jdk1.8.jar",
-            "https://github.com/pmiaowu/BurpShiroPassiveScan/releases/download/BurpShiroPassiveScan-$version/BurpShiroPassiveScan-$version-jdk11.jar",
-            "https://github.com/pmiaowu/BurpShiroPassiveScan/releases/download/BurpShiroPassiveScan-$version/BurpShiroPassiveScan-$version-jdk14.jar"
+            "https://github.com/pmiaowu/BurpShiroPassiveScan/releases/download/BurpShiroPassiveScan-$version/BurpShiroPassiveScan-$version-jdk1.8.zip",
+            "https://github.com/pmiaowu/BurpShiroPassiveScan/releases/download/BurpShiroPassiveScan-$version/BurpShiroPassiveScan-$version-jdk11.zip",
+            "https://github.com/pmiaowu/BurpShiroPassiveScan/releases/download/BurpShiroPassiveScan-$version/BurpShiroPassiveScan-$version-jdk14.zip"
         ]
     }
 }

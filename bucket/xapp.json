@@ -23,7 +23,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/chaitin/xapp/releases/download/xapp-$version/xapp_windows_amd64.zip"
+                "url": "https://github.com/chaitin/xapp/releases/download/xapp-$version/xapp_windows_amd64.exe"
             }
         }
     }
