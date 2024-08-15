@@ -10,7 +10,11 @@
         }
     },
     "bin": "SharpScan.exe",
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/INotGreen/SharpScan/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "SharpScan-v([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
