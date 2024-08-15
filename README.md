@@ -105,6 +105,7 @@ scoop bucket add sec https://github.com/whoopscs/scoop-security
 | [xapp](https://github.com/chaitin/xapp) | 专注于web指纹识别的工具 | scoop install xapp |
 | [XiebroC2](https://github.com/INotGreen/XiebroC2) | 支持多人协作渗透测试图形框架。</br>Supports multi-person collaborative penetration testing graphical framework. | scoop install XiebroC2 |
 | [feroxbuster](https://github.com/epi052/feroxbuster) | 一个用 Rust 编写的快速，简单，递归的内容发现工具。</br>A fast, simple, recursive content discovery tool written in Rust. | scoop install feroxbuster |
+| [SharpScan](https://github.com/INotGreen/SharpScan) | C#开发的内网资产扫描器，方便内网横向移动和域内信息收集。 | scoop install SharpScan |
 | ...                                                       | ...                                                          | ...                         |
 
 
@@ -124,21 +125,26 @@ scoop bucket add sec https://github.com/whoopscs/scoop-security
 | [TsojanScan](https://github.com/Tsojan/TsojanScan)           | 一个集成的BurpSuite漏洞探测插件</br>An integrated BurpSuite vulnerability detection plug-in. | scoop install TsojanScan            |
 | [OneScan](https://github.com/vaycore/OneScan)                | OneScan是递归目录扫描的BurpSuite插件                         | scoop install OneScan               |
 | [BypassPro](https://github.com/0x727/BypassPro)              | 对权限绕过自动化bypass的burpsuite插件                        | scoop install BypassPro             |
+| [HopLa](https://github.com/synacktiv/HopLa)                  | 一个自动添加，填充测试片段的BurpSuite插件。</br>Adds autocompletion support and useful payloads in Burp Suite. | scoop install HopLa                 |
 | ...                                                          | ...                                                          | ...                                 |
 
 
 
 ### Other Apps
 
-| 软件                                                         | 描述                                               | 安装                           |
-| ------------------------------------------------------------ | -------------------------------------------------- | ------------------------------ |
-| [openjdk](https://openjfx.io)                                | 解决部分软件在高版本JAVA运行时缺少javafx依赖的问题 | scoop install openjdk          |
-| [notify](https://github.com/projectdiscovery/notify)         | 辅助多个工具的输出并通知到受支持的平台             | scoop install notify           |
-| [npcap](https://npcap.com)                                   | 专为 Windows 开发的一款网络抓包 SDK                | scoop install npcap            |
-| [winscp](https://winscp.net)                                 | 一个Windows环境下使用SSH的开源图形化SFTP客户端     | scoop install winscp           |
-| [HashCalculator](https://github.com/hrpzcf/HashCalculator)   | 文件哈希值批量计算器                               | scoop install HashCalculator   |
-| [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher) | PC版微信/QQ/TIM防撤回补丁                          | scoop install RevokeMsgPatcher |
-| ...                                                          | ...                                                | ...                            |
+| 软件                                                         | 描述                                                         | 安装                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------ |
+| [openjdk](https://openjfx.io)                                | 解决部分软件在高版本JAVA运行时缺少javafx依赖的问题           | scoop install openjdk          |
+| [notify](https://github.com/projectdiscovery/notify)         | 辅助多个工具的输出并通知到受支持的平台                       | scoop install notify           |
+| [npcap](https://npcap.com)                                   | 专为 Windows 开发的一款网络抓包 SDK                          | scoop install npcap            |
+| [winscp](https://winscp.net)                                 | 一个Windows环境下使用SSH的开源图形化SFTP客户端               | scoop install winscp           |
+| [HashCalculator](https://github.com/hrpzcf/HashCalculator)   | 文件哈希值批量计算器                                         | scoop install HashCalculator   |
+| [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher) | PC版微信/QQ/TIM防撤回补丁                                    | scoop install RevokeMsgPatcher |
+| [Everything](https://www.voidtools.com)                      | 文件搜索工具，基于名称快速定位文件和文件夹。</br>Locate files and folders by name instantly. | scoop install Everything       |
+| [RustDesk](https://github.com/rustdesk/rustdesk)             | 一个用 Rust 语言编写专为自托管而设计的开源远程桌面软件。</br>An open-source remote desktop application designed for self-hosting. | scoop install RustDesk         |
+| [SublimeText](https://www.sublimetext.com/)                  | 一个文本编辑器。</br>A text editor.                          | scoop install SublimeText      |
+| [TinyRDM](https://redis.tinycraft.cc/)                       | 一款现代轻量级跨平台 Redis 桌面管理器。</br>A modern lightweight cross-platform Redis Desktop Manager. | scoop install TinyRDM          |
+| ...                                                          | ...                                                          | ...                            |
 
 
 
@@ -154,4 +160,5 @@ they satisfy the criteria before opening new app request in my bucket.
 
 ## Thanks
 - [ScoopInstaller/Scoop: A command-line installer for Windows.](https://github.com/ScoopInstaller/Scoop)
+- [ScoopInstaller/Extras: 📦 The Extras bucket for Scoop.](https://github.com/ScoopInstaller/Extras)
 - [arch3rPro/PST-Bucket](https://github.com/arch3rPro/PST-Bucket)
