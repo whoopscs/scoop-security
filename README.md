@@ -167,3 +167,7 @@ Be a contributor! Fork it, update the outdated apps app manifest, and file pull-
 - [chawyehsu/dorado: 🐟 Yet Another bucket for lovely Scoop](https://github.com/chawyehsu/dorado)
 - [ScoopInstaller/Extras: 📦 The Extras bucket for Scoop.](https://github.com/ScoopInstaller/Extras)
 - [arch3rPro/PST-Bucket](https://github.com/arch3rPro/PST-Bucket)
+
+
+
+[issue]: https://github.com/whoopscs/scoop-security/issues
