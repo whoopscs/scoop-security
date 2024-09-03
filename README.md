@@ -109,6 +109,9 @@ scoop install sec/x64dbg
 | [XiebroC2](https://github.com/INotGreen/XiebroC2) | 支持多人协作渗透测试图形框架。</br>Supports multi-person collaborative penetration testing graphical framework. | scoop install XiebroC2 |
 | [feroxbuster](https://github.com/epi052/feroxbuster) | 一个用 Rust 编写的快速，简单，递归的内容发现工具。</br>A fast, simple, recursive content discovery tool written in Rust. | scoop install feroxbuster |
 | [SharpScan](https://github.com/INotGreen/SharpScan) | C#开发的内网资产扫描器，方便内网横向移动和域内信息收集。 | scoop install SharpScan |
+| [jadx](https://github.com/skylot/jadx) | 一个从Android Dex到Java的反编译器</br>Dex to Java decompiler. | scoop install jadx |
+| [ImHex](https://github.com/WerWolv/ImHex) | 十六进制编辑器</br>Hex editor | scoop install ImHex |
+| [x64dbg](https://github.com/x64dbg/x64dbg) | 一个开源的Windows动态反汇编调试器</br>An open-source x64/x32 debugger for windows. | scoop install x64dbg |
 | ...                                                       | ...                                                          | ...                         |
 
 
