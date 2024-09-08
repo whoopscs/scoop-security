@@ -112,6 +112,8 @@ scoop install sec/x64dbg
 | [jadx](https://github.com/skylot/jadx) | 一个从Android Dex到Java的反编译器</br>Dex to Java decompiler. | scoop install jadx |
 | [ImHex](https://github.com/WerWolv/ImHex) | 十六进制编辑器</br>Hex editor | scoop install ImHex |
 | [x64dbg](https://github.com/x64dbg/x64dbg) | 一个开源的Windows动态反汇编调试器</br>An open-source x64/x32 debugger for windows. | scoop install x64dbg |
+| [P1finger](https://github.com/P001water/P1finger) | 红队行动下的重点资产指纹识别工具 | scoop install P1finger |
+| [poc-runner](https://github.com/4ra1n/poc-runner) | 基于 XRAY YAML 规则的超轻量快速漏洞扫描引擎</br>Small & Fast Vulnerability Scanner Engine based on XRAY YAML Rule | scoop install poc-runner |
 | ...                                                       | ...                                                          | ...                         |
 
 
