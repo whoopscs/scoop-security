@@ -18,11 +18,11 @@
         "Rename-Item  \"$dir\\CaA-Beta-$version.jar\" \"$dir\\CaA.jar\""
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/gh0stkey/CaA/releases/latest",
-        "jsonpath": "$.tag_name",
-        "regex": "Beta([\\d.]+)"
+        "url": "https://api.github.com/repos/gh0stkey/CaA/releases",
+        "jsonpath": "$..tag_name",
+        "regex": "([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/gh0stkey/CaA/releases/download/Beta$version/CaA-Beta-$version.jar"
+        "url": "https://github.com/gh0stkey/CaA/releases/download/$version/CaA-$version.jar"
     }
 }
