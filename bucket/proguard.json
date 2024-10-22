@@ -18,7 +18,7 @@
         "regex": "download/(?<genVer>v[\\d.]+)/proguard-([\\d.]+).zip"
     },
     "autoupdate": {
-        "url": "https://github.com/Guardsquare/proguard/releases/download/v$matchGenver/proguard-$version.zip",
+        "url": "https://github.com/Guardsquare/proguard/releases/download/$matchGenver/proguard-$version.zip",
         "extract_dir": "proguard-$version"
     }
 }
