@@ -25,7 +25,11 @@
             "jmg"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://api.github.com/repos/pen4uin/java-memshell-generator/releases",
+        "jsonpath": "$..tag_name",
+        "regex": "v(\\d+(?:\\.\\d+)*(?:[._-][\\w\\d]+)*)"
+    },
     "autoupdate": {
         "url": "https://github.com/pen4uin/java-memshell-generator/releases/download/v$version/jMG-gui-obf-$version.jar"
     }
