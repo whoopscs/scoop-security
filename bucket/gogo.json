@@ -14,6 +14,13 @@
             "hash": "8a87179b30c319b71f34b064260a6d2b4642e82f6d4fc47f7b9cd332fda9ee6b"
         }
     },
+    "pre_install": [
+        "if (Test-Path \"$dir\\gogo_windows_amd64.exe\") {",
+        "    Rename-Item \"$dir\\gogo_windows_amd64.exe\" \"$dir\\gogo.exe\"",
+        "} elseif (Test-Path \"$dir\\gogo_windows_386.exe\") {",
+        "    Rename-Item \"$dir\\gogo_windows_386.exe\" \"$dir\\gogo.exe\"",
+        "}"
+    ],
     "bin": "gogo.exe",
     "checkver": {
         "url": "https://api.github.com/repos/chainreactors/gogo/releases/latest",
