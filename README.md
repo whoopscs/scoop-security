@@ -176,4 +176,10 @@ Be a contributor! Fork it, update the outdated apps app manifest, and file pull-
 
 
 
+## Star
+[![Stargazers over time](https://starchart.cc/whoopscs/scoop-security.svg?variant=adaptive)](https://starchart.cc/whoopscs/scoop-security)
+
+
+
+
 [issue]: https://github.com/whoopscs/scoop-security/issues
