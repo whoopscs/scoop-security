@@ -22,10 +22,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/P001water/P1finger/releases/download/P1finger_$version/P1finger64.exe"
+                "url": "https://github.com/P001water/P1finger/releases/download/P1finger_$version/P1finger_windows_amd64.exe"
             },
             "32bit": {
-                "url": "https://github.com/P001water/P1finger/releases/download/P1finger_$version/P1finger86.exe"
+                "url": "https://github.com/P001water/P1finger/releases/download/P1finger_$version/P1finger_windows_386.exe"
             }
         }
     }
