@@ -12,6 +12,6 @@
         "regex": "XiebroC2-v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/INotGreen/XiebroC2/releases/download/XiebroC2-v$version/XiebroC2-v$version.7z"
+        "url": "https://github.com/INotGreen/XiebroC2/releases/download/XiebroC2-v$version/XiebroC2-$version.7z"
     }
 }

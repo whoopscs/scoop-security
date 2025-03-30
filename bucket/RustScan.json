@@ -18,6 +18,6 @@
     "bin": "rustscan.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/RustScan/RustScan/releases/download/$version/rustscan-$version-x86_64-windows.zip"
+        "url": "https://github.com/RustScan/RustScan/releases/download/$version/x86_64-windows-rustscan.exe.zip"
     }
 }
