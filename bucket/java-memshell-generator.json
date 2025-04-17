@@ -14,9 +14,9 @@
     "hash": "1d5d8fd5e942a7f79268c80fe435742175ebf37abc1ffb16a5ba22810c22b803",
     "pre_install": [
         "Rename-Item \"$dir\\jmg-all-$version.jar\" 'jmg.jar'",
-        "Set-Content \"$dir\\java-memshell-generator.bat\" '@pushd %~dp0
-@start javaw.exe -jar \"jmg.jar\" %*
-@popd' -Encoding Ascii"
+        "Set-Content \"$dir\\java-memshell-generator.bat\" '@pushd %~dp0",
+        "@start javaw.exe -jar \"jmg.jar\" %*",
+        "@popd' -Encoding Ascii"
     ],
     "bin": [
         [
