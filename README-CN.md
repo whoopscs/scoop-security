@@ -36,7 +36,7 @@ scoop install sec/x64dbg
 
 | 软件        | 描述         | 安装        |
 | ----------- | ----------- | ----------- |
-| [afrog](https://github.com/zan8in/afrog) | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具</br>A tool for finding vulnerabilities | scoop install afrog |
+| [afrog](https://github.com/zan8in/afrog) | afrog 是一款性能卓越、快速稳定、PoC 可定制化的漏洞扫描工具 | scoop install afrog |
 | [AntSword](https://github.com/AntSwordProject/AntSword-Loader) | AntSword 加载器 | scoop install AntSword |
 | [Behinder](https://github.com/rebeyond/Behinder) | “冰蝎”动态二进制加密网站管理客户端 | scoop install Behinder |
 | [Godzilla](https://github.com/BeichenDream/Godzilla) | 哥斯拉 | scoop install Godzilla |
@@ -54,14 +54,14 @@ scoop install sec/x64dbg
 | [EHole](https://github.com/EdgeSecurityTeam/EHole) | 红队重点攻击系统指纹探测工具 | scoop install EHole |
 | [ENScan](https://github.com/wgpsec/ENScan_GO) | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。 | scoop install ENScan |
 | [ffuf](https://github.com/ffuf/ffuf) | 用 Go 编写的快速 Web 模糊测试器 | scoop install ffuf |
-| [fofaviewer](https://github.com/wgpsec/fofa_viewer) | 一个由WgpSec狼组安全团队开发的FoFa客户端数据查看工具，使用JavaFX编写，支持多标签查询、导出Excel文件等功能。 | scoop install fofaviewer |
+| [fofaviewer](https://github.com/wgpsec/fofa_viewer) | 一个由WgpSec狼组安全团队开发的FoFa客户端数据查看工具，使用JavaFX编写，支持多标签查询、导出Excel文件等功能。 | scoop install fofa_viewer |
 | [fscan](https://github.com/shadow1ng/fscan) | 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。 | scoop install fscan |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | 一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。 | scoop install Fvuln |
 | [GDA](https://github.com/charles2gan/GDA-android-reversing-Tool) | 一个用C++实现的强大的Dalvik字节码反编译器，具有分析速度快，内存磁盘消耗低等优点，对apk、dex、odex、oat、jar、class、aar文件有较强的反编译能力 | scoop install GDA |
 | [ghauri](https://github.com/r0oth3x49/ghauri) | An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws. | scoop install ghauri |
 | [goby](https://gobysec.net) | 新一代网络安全技术，通过为目标建立完整的资产数据库，实现快速的安全应急 | scoop install goby |
 | [gogo](https://github.com/chainreactors/gogo) | 面向红队的, 高度可控可拓展的自动化引擎 | scoop install gogo |
-| [GooFuzz](https://github.com/m3n0sd0n4ld/GooFuzz) | GooFuzz is a tool to perform fuzzing with an OSINT approach. | scoop install GooFuzz |
+| [GooFuzz](https://github.com/m3n0sd0n4ld/GooFuzz) | GooFuzz 是一款采用 OSINT 方法进行模糊测试的工具，它能够枚举目录、文件、子域或参数，而不会在目标服务器上留下任何痕迹，并且可以通过高级 Google 搜索（Google Dorking）来实现。 | scoop install GooFuzz |
 | [HackBrowserData](https://github.com/moonD4rk/HackBrowserData) | 一款可全平台运行的浏览器数据导出解密工具。 | scoop install HackBrowserData |
 | [httpx](https://github.com/projectdiscovery/httpx) | httpx is a fast and multi-purpose HTTP toolkit that allows running multiple probes using the retryablehttp library. It is designed to maintain result reliability with an increased number of threads | scoop install httpx |
 | [interactsh](https://github.com/projectdiscovery/interactsh) | An OOB interaction gathering server and client library. | scoop install interactsh |
@@ -106,15 +106,31 @@ scoop install sec/x64dbg
 | [mitan](https://github.com/kkbo8005/mitan) | 密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、密码字典等功能 | scoop install mitan |
 | [proxify](https://github.com/projectdiscovery/proxify) | A versatile and portable proxy for capturing, manipulating, and replaying HTTP/HTTPS traffic on the go. | scoop install proxify |
 | [xapp](https://github.com/chaitin/xapp) | 专注于web指纹识别的工具 | scoop install xapp |
-| [XiebroC2](https://github.com/INotGreen/XiebroC2) | 支持多人协作渗透测试图形框架。</br>Supports multi-person collaborative penetration testing graphical framework. | scoop install XiebroC2 |
-| [feroxbuster](https://github.com/epi052/feroxbuster) | 一个用 Rust 编写的快速，简单，递归的内容发现工具。</br>A fast, simple, recursive content discovery tool written in Rust. | scoop install feroxbuster |
+| [XiebroC2](https://github.com/INotGreen/XiebroC2) | 支持多人协作渗透测试图形框架。 | scoop install XiebroC2 |
+| [feroxbuster](https://github.com/epi052/feroxbuster) | 一个用 Rust 编写的快速，简单，递归的内容发现工具。 | scoop install feroxbuster |
 | [SharpScan](https://github.com/INotGreen/SharpScan) | C#开发的内网资产扫描器，方便内网横向移动和域内信息收集。 | scoop install SharpScan |
-| [jadx](https://github.com/skylot/jadx) | 一个从Android Dex到Java的反编译器</br>Dex to Java decompiler. | scoop install jadx |
+| [jadx](https://github.com/skylot/jadx) | 一个从Android Dex到Java的反编译器 | scoop install jadx |
 | [ImHex](https://github.com/WerWolv/ImHex) | 十六进制编辑器</br>Hex editor | scoop install ImHex |
-| [x64dbg](https://github.com/x64dbg/x64dbg) | 一个开源的Windows动态反汇编调试器</br>An open-source x64/x32 debugger for windows. | scoop install x64dbg |
+| [x64dbg](https://github.com/x64dbg/x64dbg) | 一个开源的Windows动态反汇编调试器 | scoop install x64dbg |
 | [P1finger](https://github.com/P001water/P1finger) | 红队行动下的重点资产指纹识别工具 | scoop install P1finger |
-| [poc-runner](https://github.com/4ra1n/poc-runner) | 基于 XRAY YAML 规则的超轻量快速漏洞扫描引擎</br>Small & Fast Vulnerability Scanner Engine based on XRAY YAML Rule | scoop install poc-runner |
+| [poc-runner](https://github.com/4ra1n/poc-runner) | 基于 XRAY YAML 规则的超轻量快速漏洞扫描引擎 | scoop install poc-runner |
 | [qscan](https://github.com/qi4L/qscan) | 一个比Fscan更快，且免杀的内网扫描器 | scoop install qscan |
+| [ysoserial](https://github.com/frohoff/ysoserial) | A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization. | scoop install ysoserial |
+| [JavaGadgetGenerator](https://github.com/Lotus6/JavaGadgetGenerator) | JavaGadgetGenerator 工具，支持 ysoserial，Hessian，字节码，Expr/SSTI，Shiro，JDBC 等 Gadget 生成，封装，混淆，出网延迟探测，内存马注入等... | scoop install JavaGadgetGenerator |
+| [JDumpSpider](https://github.com/whwlsfb/JDumpSpider) | HeapDump敏感信息提取工具 | scoop install JDumpSpider |
+| [JDumpSpiderGUI](https://github.com/DeEpinGh0st/JDumpSpiderGUI) | JDumpSpiderGUI 是一个用于 Java 堆转储文件分析的工具，支持命令行和 JavaFX 图形界面两种模式。该工具主要是在原工具上添加了图形化的界面 | scoop install JDumpSpiderGUI |
+| [Ingram](https://github.com/jorhelp/Ingram) | Webcam vulnerability scanning tool | scoop install Ingram |
+| [hfinger](https://github.com/HackAllSec/hfinger) | 一个用于web框架、CDN和CMS指纹识别的高性能命令行工具。 | scoop install hfinger |
+| [Hawkeye](https://github.com/mir1ce/Hawkeye) | Windows应急响应工具---Hawkeye(鹰眼)。集Windows日志分析，进程扫描，主机信息于一体的综合应急响应分析工具 | scoop install Hawkeye |
+| [HashcatGui](https://github.com/7797777977/HashcatGui) | Hashcat GUI是一个为Hashcat密码破解工具设计的现代化图形用户界面，旨在简化密码破解过程，提供友好的用户体验。本工具采用PyQt5构建，具有暗色主题界面，使用户能够轻松地利用GPU加速进行高效的密码破解操作。 | scoop install HashcatGui |
+| [fine](https://github.com/fasnow/fine) | 网络空间资产测绘、ICP备案、天眼查股权结构图、IP138域名解析与IP反查、外部HTTP调用与小程序反编译。 | scoop install fine |
+| [EZ](https://github.com/m-sec-org/EZ) | EZ是一款集信息收集、端口扫描、服务暴破、URL爬虫、指纹识别、被动扫描为一体的跨平台漏洞扫描器。 | scoop install EZ |
+| [EquationToolsGUI](https://github.com/abc123info/EquationToolsGUI) | 本程序为美国NSA的方程式工具包图形界面版，由ABC_123于2017年开始编写，仅用来扫描和验证MS17-010、MS09-050、MS08-067漏洞，并可协助管理员修复系统漏洞。 | scoop install EquationToolsGUI |
+| [DockerAPITool](https://github.com/Janhsu/DockerAPITool) | DockerRemoteAPI未授权访问(2375端口)利用工具，支持容器逃逸 | scoop install DockerAPITool |
+| [DockerApiRCE](https://github.com/0xchang/DockerApiRCE) | DockerApiRCE | scoop install DockerApiRCE |
+| [Docker-Registry-exp](https://github.com/mhtsec/Docker-Registry-exp) | 一款功能强大的Docker Registry 5000端口未授权浏览、下载和安全测试工具，集成了镜像管理、认证爆破、敏感信息搜索等多项实用功能。 | scoop install Docker-Registry-exp |
+| [cloudTools](https://github.com/dark-kingA/cloudTools) | 云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云存储工具、云服务工具， 云存储工具主要是针对oss存储、查看、删除、上传、下载、预览等等 云服务工具主要是针对rds、服务器的管理，查看、执行命令、接管等等 | scoop install cloudTools |
+| [AuxTools](https://github.com/doimet/AuxTools) | 图形化渗透测试辅助工具 数据收集、信息收集、站点扫描、端口扫描、漏洞利用、命令生成、命令分析、网段合并、DNS记录、Host碰撞、ChatGPT、数据解密、口令查询、编码解码、加密解密、随机生成、汉拼转换、接口测试、WebSocket | scoop install AuxTools |
 | ...                                                       | ...                                                          | ...                         |
 
 
@@ -128,13 +144,18 @@ scoop install sec/x64dbg
 | [BurpShiroPassiveScan](https://github.com/pmiaowu/BurpShiroPassiveScan) | 一款基于BurpSuite的被动式shiro检测插件                       | scoop install BurpShiroPassiveScan  |
 | [BurpFastJsonScan](https://github.com/pmiaowu/BurpFastJsonScan) | 一款基于BurpSuite的被动式FastJson检测插件                    | scoop install BurpFastJsonScan      |
 | [sqlmap4burp-plus-plus](https://github.com/c0ny1/sqlmap4burp-plus-plus) | burp联动sqlmap插件                                           | scoop install sqlmap4burp-plus-plus |
-| [HaE](https://github.com/gh0stkey/HaE)                       | Highlighter and Extractor, Empower ethical hacker for efficient operations | scoop install HaE                   |
+| [HaE](https://github.com/gh0stkey/HaE)                       | HaE是一款可以快速挖掘目标指纹和关键信息高亮显示的Burp插件 | scoop install HaE                   |
 | [CaA](https://github.com/gh0stkey/CaA)                       | CaA是一个基于BurpSuite Java插件API开发的流量收集和分析插件   | scoop install CaA                   |
 | [RouteVulScan](https://github.com/F6JO/RouteVulScan)         | 递归式被动检测脆弱路径的burp插件</br>Route Vulnerable scanning | scoop install RouteVulScan          |
-| [TsojanScan](https://github.com/Tsojan/TsojanScan)           | 一个集成的BurpSuite漏洞探测插件</br>An integrated BurpSuite vulnerability detection plug-in. | scoop install TsojanScan            |
+| [TsojanScan](https://github.com/Tsojan/TsojanScan)           | 一个集成的BurpSuite漏洞探测插件           |
 | [OneScan](https://github.com/vaycore/OneScan)                | OneScan是递归目录扫描的BurpSuite插件                         | scoop install OneScan               |
 | [BypassPro](https://github.com/0x727/BypassPro)              | 对权限绕过自动化bypass的burpsuite插件                        | scoop install BypassPro             |
-| [HopLa](https://github.com/synacktiv/HopLa)                  | 一个自动添加，填充测试片段的BurpSuite插件。</br>Adds autocompletion support and useful payloads in Burp Suite. | scoop install HopLa                 |
+| [HopLa](https://github.com/synacktiv/HopLa)                  | 一个自动添加，填充测试片段的BurpSuite插件。 | scoop install HopLa                 |
+| [CloudX](https://github.com/cloud-jie/CloudX)         | 一个基于规则的加解密破签工具 | scoop install CloudX          |
+| [BurpCrypto](https://github.com/whwlsfb/BurpCrypto)           | 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件 | scoop install BurpCrypto            |
+| [Fiora](https://github.com/bit4woo/Fiora)                | 漏洞PoC框架Nuclei的图形版。快捷搜索PoC、一键运行Nuclei。即可作为独立程序运行，也可作为burp插件使用。                         | scoop install Fiora               |
+| [RVScan](https://github.com/XF-FS/RVScan)              | RVScan 是一个功能强大的 Burp Suite 扩展插件，专为自动化Web应用程序安全测试和漏洞扫描而设计。它提供全面的路径发现、绕过技术、EHole指纹识别和可定制的扫描规则。                        | scoop install RVScan             |
+| [turbo-intruder](https://github.com/PortSwigger/turbo-intruder)                  | Turbo Intruder 是一个 Burp Suite 扩展，用于发送大量 HTTP 请求并分析结果。 | scoop install turbo-intruder                 |
 | ...                                                          | ...                                                          | ...                                 |
 
 
@@ -149,10 +170,10 @@ scoop install sec/x64dbg
 | [winscp](https://winscp.net)                                 | 一个Windows环境下使用SSH的开源图形化SFTP客户端               | scoop install winscp           |
 | [HashCalculator](https://github.com/hrpzcf/HashCalculator)   | 文件哈希值批量计算器                                         | scoop install HashCalculator   |
 | [RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher) | PC版微信/QQ/TIM防撤回补丁                                    | scoop install RevokeMsgPatcher |
-| [Everything](https://www.voidtools.com)                      | 文件搜索工具，基于名称快速定位文件和文件夹。</br>Locate files and folders by name instantly. | scoop install Everything       |
-| [RustDesk](https://github.com/rustdesk/rustdesk)             | 一个用 Rust 语言编写专为自托管而设计的开源远程桌面软件。</br>An open-source remote desktop application designed for self-hosting. | scoop install RustDesk         |
+| [Everything](https://www.voidtools.com)                      | 文件搜索工具，基于名称快速定位文件和文件夹。 | scoop install Everything       |
+| [RustDesk](https://github.com/rustdesk/rustdesk)             | 一个用 Rust 语言编写专为自托管而设计的开源远程桌面软件。 | scoop install RustDesk         |
 | [SublimeText](https://www.sublimetext.com/)                  | 一个文本编辑器。</br>A text editor.                          | scoop install SublimeText      |
-| [TinyRDM](https://redis.tinycraft.cc/)                       | 一款现代轻量级跨平台 Redis 桌面管理器。</br>A modern lightweight cross-platform Redis Desktop Manager. | scoop install TinyRDM          |
+| [TinyRDM](https://redis.tinycraft.cc/)                       | 一款现代轻量级跨平台 Redis 桌面管理器。          |
 | ...                                                          | ...                                                          | ...                            |
 
 

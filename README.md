@@ -54,7 +54,7 @@ scoop install sec/x64dbg
 | [EHole](https://github.com/EdgeSecurityTeam/EHole) | 红队重点攻击系统指纹探测工具 | scoop install EHole |
 | [ENScan](https://github.com/wgpsec/ENScan_GO) | 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。 | scoop install ENScan |
 | [ffuf](https://github.com/ffuf/ffuf) | 用 Go 编写的快速 Web 模糊测试器 | scoop install ffuf |
-| [fofaviewer](https://github.com/wgpsec/fofa_viewer) | 一个由WgpSec狼组安全团队开发的FoFa客户端数据查看工具，使用JavaFX编写，支持多标签查询、导出Excel文件等功能。 | scoop install fofaviewer |
+| [fofaviewer](https://github.com/wgpsec/fofa_viewer) | 一个由WgpSec狼组安全团队开发的FoFa客户端数据查看工具，使用JavaFX编写，支持多标签查询、导出Excel文件等功能。 | scoop install fofa_viewer |
 | [fscan](https://github.com/shadow1ng/fscan) | 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。 | scoop install fscan |
 | [Fvuln](https://github.com/d3ckx1/Fvuln) | 一款自动化工具，主要适用于日常安全服务、渗透测试人员和RedTeam红队人员，它集合的功能包括：存活IP探测、开放端口探测、web服务探测、web漏洞扫描、smb爆破、ssh爆破、ftp爆破、mssql爆破等其他数据库爆破工作以及大量web漏洞检测模块。 | scoop install Fvuln |
 | [GDA](https://github.com/charles2gan/GDA-android-reversing-Tool) | 一个用C++实现的强大的Dalvik字节码反编译器，具有分析速度快，内存磁盘消耗低等优点，对apk、dex、odex、oat、jar、class、aar文件有较强的反编译能力 | scoop install GDA |
@@ -101,7 +101,7 @@ scoop install sec/x64dbg
 | [jar-analyzer](https://github.com/jar-analyzer/jar-analyzer) | 一个JAR包分析工具，批量分析搜索，方法调用关系搜索，字符串搜索，Spring分析，CFG分析，JVM Stack Frame分析，远程分析Tomcat，进阶表达式搜索，自定义SQL查询，字节码查看，命令行分析，使用简易RASP保护 | scoop install jar-analyzer |
 | [jar-obfuscator](https://github.com/jar-analyzer/jar-obfuscator) | 一个 JAR/CLASS 字节码混淆工具，支持包名/类名/方法名/字段名/参数名引用分析和重命名混淆方式，支持字符串加密/整型异或混淆/垃圾代码花指令混淆/等方式，支持方法和字段的隐藏，支持 NATIVE 层的 JVMTI 代码加密，配置简单，文档教程齐全，容易上手 | scoop install jar-obfuscator |
 | [java-echo-generator](https://github.com/pen4uin/java-echo-generator) | 一款支持高度自定义的 Java 回显载荷生成工具 | scoop install java-echo-generator |
-| [java-memshell-generator](https://github.com/pen4uin/java-memshell-generator) | 一款支持高度自定义的 Java 内存马生成工具 | scoop install java-memshell-generator |
+| [JMG](https://github.com/pen4uin/java-memshell-generator) | 一款支持高度自定义的 Java 内存马生成工具 | scoop install JMG |
 | [proguard](https://github.com/Guardsquare/proguard) | ProGuard 是一个免费的 Java 字节码压缩器、优化器、混淆器和预验证器 | scoop install proguard |
 | [mitan](https://github.com/kkbo8005/mitan) | 密探渗透测试工具包含资产信息收集，子域名爆破，搜索语法，资产测绘（FOFA，Hunter，quake, ZoomEye），指纹识别，敏感信息采集，文件扫描、密码字典等功能 | scoop install mitan |
 | [proxify](https://github.com/projectdiscovery/proxify) | A versatile and portable proxy for capturing, manipulating, and replaying HTTP/HTTPS traffic on the go. | scoop install proxify |
@@ -115,6 +115,22 @@ scoop install sec/x64dbg
 | [P1finger](https://github.com/P001water/P1finger) | 红队行动下的重点资产指纹识别工具 | scoop install P1finger |
 | [poc-runner](https://github.com/4ra1n/poc-runner) | 基于 XRAY YAML 规则的超轻量快速漏洞扫描引擎</br>Small & Fast Vulnerability Scanner Engine based on XRAY YAML Rule | scoop install poc-runner |
 | [qscan](https://github.com/qi4L/qscan) | 一个比Fscan更快，且免杀的内网扫描器 | scoop install qscan |
+| [ysoserial](https://github.com/frohoff/ysoserial) | A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization. | scoop install ysoserial |
+| [JavaGadgetGenerator](https://github.com/Lotus6/JavaGadgetGenerator) | JavaGadgetGenerator 工具，支持 ysoserial，Hessian，字节码，Expr/SSTI，Shiro，JDBC 等 Gadget 生成，封装，混淆，出网延迟探测，内存马注入等... | scoop install JavaGadgetGenerator |
+| [JDumpSpider](https://github.com/whwlsfb/JDumpSpider) | HeapDump敏感信息提取工具 | scoop install JDumpSpider |
+| [JDumpSpiderGUI](https://github.com/DeEpinGh0st/JDumpSpiderGUI) | JDumpSpiderGUI 是一个用于 Java 堆转储文件分析的工具，支持命令行和 JavaFX 图形界面两种模式。该工具主要是在原工具上添加了图形化的界面 | scoop install JDumpSpiderGUI |
+| [Ingram](https://github.com/jorhelp/Ingram) | Webcam vulnerability scanning tool | scoop install Ingram |
+| [hfinger](https://github.com/HackAllSec/hfinger) | A high-performance command-line tool for web framework, CDN and CMS fingerprinting. | scoop install hfinger |
+| [Hawkeye](https://github.com/mir1ce/Hawkeye) | Windows应急响应工具---Hawkeye(鹰眼)。集Windows日志分析，进程扫描，主机信息于一体的综合应急响应分析工具 | scoop install Hawkeye |
+| [HashcatGui](https://github.com/7797777977/HashcatGui) | Hashcat GUI是一个为Hashcat密码破解工具设计的现代化图形用户界面，旨在简化密码破解过程，提供友好的用户体验。本工具采用PyQt5构建，具有暗色主题界面，使用户能够轻松地利用GPU加速进行高效的密码破解操作。 | scoop install HashcatGui |
+| [fine](https://github.com/fasnow/fine) | 网络空间资产测绘、ICP备案、天眼查股权结构图、IP138域名解析与IP反查、外部HTTP调用与小程序反编译。 | scoop install fine |
+| [EZ](https://github.com/m-sec-org/EZ) | EZ是一款集信息收集、端口扫描、服务暴破、URL爬虫、指纹识别、被动扫描为一体的跨平台漏洞扫描器。 | scoop install EZ |
+| [EquationToolsGUI](https://github.com/abc123info/EquationToolsGUI) | 本程序为美国NSA的方程式工具包图形界面版，由ABC_123于2017年开始编写，仅用来扫描和验证MS17-010、MS09-050、MS08-067漏洞，并可协助管理员修复系统漏洞。 | scoop install EquationToolsGUI |
+| [DockerAPITool](https://github.com/Janhsu/DockerAPITool) | DockerRemoteAPI未授权访问(2375端口)利用工具，支持容器逃逸 | scoop install DockerAPITool |
+| [DockerApiRCE](https://github.com/0xchang/DockerApiRCE) | DockerApiRCE | scoop install DockerApiRCE |
+| [Docker-Registry-exp](https://github.com/mhtsec/Docker-Registry-exp) | 一款功能强大的Docker Registry 5000端口未授权浏览、下载和安全测试工具，集成了镜像管理、认证爆破、敏感信息搜索等多项实用功能。 | scoop install Docker-Registry-exp |
+| [cloudTools](https://github.com/dark-kingA/cloudTools) | 云资产管理工具 目前工具定位是云安全相关工具，目前是两个模块 云存储工具、云服务工具， 云存储工具主要是针对oss存储、查看、删除、上传、下载、预览等等 云服务工具主要是针对rds、服务器的管理，查看、执行命令、接管等等 | scoop install cloudTools |
+| [AuxTools](https://github.com/doimet/AuxTools) | 图形化渗透测试辅助工具 数据收集、信息收集、站点扫描、端口扫描、漏洞利用、命令生成、命令分析、网段合并、DNS记录、Host碰撞、ChatGPT、数据解密、口令查询、编码解码、加密解密、随机生成、汉拼转换、接口测试、WebSocket | scoop install AuxTools |
 | ...                                                       | ...                                                          | ...                         |
 
 
@@ -135,6 +151,11 @@ scoop install sec/x64dbg
 | [OneScan](https://github.com/vaycore/OneScan)                | OneScan是递归目录扫描的BurpSuite插件                         | scoop install OneScan               |
 | [BypassPro](https://github.com/0x727/BypassPro)              | 对权限绕过自动化bypass的burpsuite插件                        | scoop install BypassPro             |
 | [HopLa](https://github.com/synacktiv/HopLa)                  | 一个自动添加，填充测试片段的BurpSuite插件。</br>Adds autocompletion support and useful payloads in Burp Suite. | scoop install HopLa                 |
+| [CloudX](https://github.com/cloud-jie/CloudX)         | 一个基于规则的加解密破签工具 | scoop install CloudX          |
+| [BurpCrypto](https://github.com/whwlsfb/BurpCrypto)           | BurpCrypto is a collection of burpsuite encryption plug-ins, support AES/RSA/DES/ExecJs(execute JS encryption code in burpsuite). | scoop install BurpCrypto            |
+| [Fiora](https://github.com/bit4woo/Fiora)                | 漏洞PoC框架Nuclei的图形版。快捷搜索PoC、一键运行Nuclei。即可作为独立程序运行，也可作为burp插件使用。                         | scoop install Fiora               |
+| [RVScan](https://github.com/XF-FS/RVScan)              | RVScan 是一个功能强大的 Burp Suite 扩展插件，专为自动化Web应用程序安全测试和漏洞扫描而设计。它提供全面的路径发现、绕过技术、EHole指纹识别和可定制的扫描规则。                        | scoop install RVScan             |
+| [turbo-intruder](https://github.com/PortSwigger/turbo-intruder)                  | Turbo Intruder is a Burp Suite extension for sending large numbers of HTTP requests and analyzing the results. | scoop install turbo-intruder                 |
 | ...                                                          | ...                                                          | ...                                 |
 
 
