@@ -1,6 +1,6 @@
 {
     "version": "2.2.0-20220919",
-    "description": "A little tool to play with Windows security.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "A little tool to play with Windows security.",
     "homepage": "https://github.com/gentilkiwi/mimikatz",
     "license": "Unknown",
     "url": "https://github.com/gentilkiwi/mimikatz/releases/download/2.2.0-20220919/mimikatz_trunk.7z",

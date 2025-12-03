@@ -20,10 +20,10 @@
 After making sure you have Scoop environment, execute the following command in PowerShell to subscribe to this bucket:
 
 ```powershell
-scoop bucket add sec https://github.com/whoopscs/scoop-security
+scoop bucket add sec https://github.com/tldro/scoop-security
 ```
 
-Once this is done, you can install any app from this bucket (check the list of files in the [`bucket/` directory](https://github.com/whoopscs/scoop-security/tree/main/bucket)). For instance, use the following command:
+Once this is done, you can install any app from this bucket (check the list of files in the [`bucket/` directory](https://github.com/tldro/scoop-security/tree/main/bucket)). For instance, use the following command:
 
 ```powershell
 # Don't include the .json file extension in the app name
@@ -177,9 +177,9 @@ Be a contributor! Fork it, update the outdated apps app manifest, and file pull-
 
 
 ## Star
-[![Stargazers over time](https://starchart.cc/whoopscs/scoop-security.svg?variant=adaptive)](https://starchart.cc/whoopscs/scoop-security)
+[![Stargazers over time](https://starchart.cc/tldro/scoop-security.svg?variant=adaptive)](https://starchart.cc/tldro/scoop-security)
 
 
 
 
-[issue]: https://github.com/whoopscs/scoop-security/issues
+[issue]: https://github.com/tldro/scoop-security/issues

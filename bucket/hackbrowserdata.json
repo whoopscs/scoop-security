@@ -1,6 +1,6 @@
 {
     "version": "0.4.6",
-    "description": "一款可全平台运行的浏览器数据导出解密工具。Decrypt passwords/cookies/history/bookmarks from the browser.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "一款可全平台运行的浏览器数据导出解密工具。Decrypt passwords/cookies/history/bookmarks from the browser.",
     "homepage": "https://github.com/moonD4rk/HackBrowserData",
     "license": "MIT",
     "architecture": {

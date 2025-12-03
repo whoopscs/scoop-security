@@ -1,9 +1,8 @@
 {
     "version": "1.4.3",
-    "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws.",
     "homepage": "https://github.com/r0oth3x49/ghauri",
     "license": "MIT",
-    "notes": "Scoop bucket for Cybersecurity by whoopscs(https://github.com/whoopscs/scoop-security).",
     "suggest": {
         "Python": "python"
     },

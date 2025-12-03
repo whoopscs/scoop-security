@@ -1,6 +1,6 @@
 {
     "version": "0.1.0",
-    "description": "红队行动下的重点资产指纹识别工具。(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "红队行动下的重点资产指纹识别工具。",
     "homepage": "https://github.com/P001water/P1finger",
     "license": "MIT",
     "architecture": {

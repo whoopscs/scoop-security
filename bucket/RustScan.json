@@ -1,6 +1,6 @@
 {
     "version": "2.4.1",
-    "description": "The Modern Port Scanner.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "The Modern Port Scanner.",
     "homepage": "https://github.com/RustScan/RustScan",
     "license": "GPL-3.0-or-later",
     "url": "https://github.com/RustScan/RustScan/releases/download/2.4.1/x86_64-windows-rustscan.exe.zip",

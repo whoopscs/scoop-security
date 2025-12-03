@@ -1,6 +1,6 @@
 {
     "version": "1.2.6",
-    "description": "GooFuzz is a tool to perform fuzzing with an OSINT approach.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "GooFuzz is a tool to perform fuzzing with an OSINT approach.",
     "homepage": "https://github.com/m3n0sd0n4ld/GooFuzz",
     "license": "GPL-3.0-or-later",
     "suggest": {

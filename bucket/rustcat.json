@@ -1,6 +1,6 @@
 {
     "version": "3.0.0",
-    "description": "Rustcat(rcat) - The modern Port listener and Reverse shell.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "Rustcat(rcat) - The modern Port listener and Reverse shell.",
     "homepage": "https://github.com/robiot/rustcat",
     "license": "GPL-3.0-or-later",
     "architecture": {

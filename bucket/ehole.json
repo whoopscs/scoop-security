@@ -1,6 +1,6 @@
 {
     "version": "3.1",
-    "description": "EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具。(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "EHole(棱洞)3.0 重构版-红队重点攻击系统指纹探测工具。",
     "homepage": "https://github.com/EdgeSecurityTeam/EHole",
     "license": "Apache-2.0",
     "architecture": {

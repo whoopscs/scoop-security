@@ -1,9 +1,8 @@
 {
     "version": "1.8.1",
-    "description": "一个比Fscan更快，且免杀的内网扫描器。(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "一个比Fscan更快，且免杀的内网扫描器。",
     "homepage": "https://github.com/qi4L/qscan",
     "license": "GPL-3.0",
-    "notes": "Scoop bucket for Cybersecurity by whoopscs(https://github.com/whoopscs/scoop-security).",
     "architecture": {
         "64bit": {
             "url": "https://github.com/qi4L/qscan/releases/download/v1.8.1/qscan.exe",

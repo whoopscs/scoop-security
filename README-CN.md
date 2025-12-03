@@ -21,7 +21,7 @@
 确保你已经有 Scoop 环境，执行以下命令订阅本软件仓库:
 
 ```powershell
-scoop bucket add sec https://github.com/whoopscs/scoop-security
+scoop bucket add sec https://github.com/tldro/scoop-security
 ```
 
 执行以下命令安装本仓库中的软件:
@@ -178,4 +178,4 @@ scoop install sec/x64dbg
 
 
 
-[issue]: https://github.com/whoopscs/scoop-security/issues
+[issue]: https://github.com/tldro/scoop-security/issues

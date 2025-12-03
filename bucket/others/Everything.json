@@ -1,6 +1,6 @@
 {
     "version": "1.4.1.1030",
-    "description": "文件搜索工具，基于名称快速定位文件和文件夹。Locate files and folders by name instantly.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "文件搜索工具，基于名称快速定位文件和文件夹。Locate files and folders by name instantly.",
     "homepage": "https://www.voidtools.com",
     "license": {
         "identifier": "Freeware",

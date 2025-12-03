@@ -1,6 +1,6 @@
 {
     "version": "6.1.3",
-    "description": "文件哈希值批量计算器。(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "文件哈希值批量计算器。",
     "homepage": "https://github.com/hrpzcf/HashCalculator",
     "license": "GPL-3.0-or-later",
     "notes": "命令行运行别名：hashc",

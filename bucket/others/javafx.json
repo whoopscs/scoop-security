@@ -1,5 +1,5 @@
 {
-    "description": "OpenJFX is an open source, next generation client application platform for desktop, mobile and embedded systems built on Java.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "OpenJFX is an open source, next generation client application platform for desktop, mobile and embedded systems built on Java.",
     "homepage": "https://openjfx.io/",
     "version": "17.0.17",
     "license": "GPL-2.0-only",

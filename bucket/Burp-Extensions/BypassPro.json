@@ -1,6 +1,6 @@
 {
     "version": "3.0",
-    "description": "对权限绕过自动化bypass的burpsuite插件。(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "对权限绕过自动化bypass的burpsuite插件。",
     "homepage": "https://github.com/0x727/BypassPro",
     "license": "Unknown",
     "notes": [

@@ -1,6 +1,6 @@
 {
     "version": "0.1.2",
-    "description": "基于 XRAY YAML 规则的超轻量快速漏洞扫描引擎。Small & Fast Vulnerability Scanner Engine based on XRAY YAML Rule.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "基于 XRAY YAML 规则的超轻量快速漏洞扫描引擎。Small & Fast Vulnerability Scanner Engine based on XRAY YAML Rule.",
     "homepage": "https://github.com/4ra1n/poc-runner",
     "license": "GPL-3.0",
     "architecture": {

@@ -1,6 +1,6 @@
 {
     "version": "1.4.4",
-    "description": "一个用 Rust 语言编写专为自托管而设计的开源远程桌面软件。An open-source remote desktop application designed for self-hosting.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "一个用 Rust 语言编写专为自托管而设计的开源远程桌面软件。An open-source remote desktop application designed for self-hosting.",
     "homepage": "https://github.com/rustdesk/rustdesk",
     "license": "AGPL-3.0-only",
     "architecture": {

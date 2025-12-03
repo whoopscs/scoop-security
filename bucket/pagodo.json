@@ -1,6 +1,6 @@
 {
     "version": "2.7.0",
-    "description": "pagodo (Passive Google Dork) - Automate Google Hacking Database scraping and searching.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "pagodo (Passive Google Dork) - Automate Google Hacking Database scraping and searching.",
     "homepage": "https://github.com/opsdisk/pagodo",
     "license": "GPL-3.0-or-later",
     "suggest": {

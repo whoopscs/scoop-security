@@ -1,6 +1,6 @@
 {
     "version": "0.2",
-    "description": "burp联动sqlmap插件。(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "burp联动sqlmap插件。",
     "homepage": "https://github.com/c0ny1/sqlmap4burp-plus-plus",
     "license": "Unknown",
     "notes": [

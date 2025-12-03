@@ -1,6 +1,6 @@
 {
     "version": "1.2.5",
-    "description": "一款现代轻量级跨平台 Redis 桌面管理器。A modern lightweight cross-platform Redis Desktop Manager.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "一款现代轻量级跨平台 Redis 桌面管理器。A modern lightweight cross-platform Redis Desktop Manager.",
     "homepage": "https://redis.tinycraft.cc",
     "license": "GPL-3.0-only",
     "architecture": {

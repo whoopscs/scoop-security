@@ -1,11 +1,8 @@
 {
     "version": "1.2.4",
-    "description": "用于生成各类免杀webshell。(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "用于生成各类免杀webshell。",
     "homepage": "https://github.com/cseroad/Webshell_Generate",
     "license": "Freeware",
-    "notes": [
-        "Scoop bucket for Cybersecurity by whoopscs(https://github.com/whoopscs/scoop-security)."
-    ],
     "suggest": {
         "JDK": [
             "java/oraclejdk",

@@ -1,6 +1,6 @@
 {
     "version": "5.2.1",
-    "description": "Neo-reGeorg is a project that seeks to aggressively refactor reGeorg.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "Neo-reGeorg is a project that seeks to aggressively refactor reGeorg.",
     "homepage": "https://github.com/L-codes/Neo-reGeorg",
     "license": "GPL-3.0-or-later",
     "notes": "命令行运行别名：neoreg",

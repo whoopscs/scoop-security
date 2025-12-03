@@ -1,11 +1,8 @@
 {
     "version": "0.4.3",
-    "description": "Web path scanner.(Scoop bucket for Cybersecurity by whoopscs)",
+    "description": "Web path scanner.",
     "homepage": "https://github.com/maurosoria/dirsearch",
     "license": "Freeware",
-    "notes": [
-        "Scoop bucket for Cybersecurity by whoopscs(https://github.com/whoopscs/scoop-security)."
-    ],
     "suggest": {
         "Python 3.7+": "python"
     },
