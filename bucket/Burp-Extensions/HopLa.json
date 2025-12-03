@@ -14,6 +14,6 @@
     "hash": "cc7d1e73db6be0baf9f6baf14a4ed2d78e62931b3580b204d482c9ca29483bb8",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/synacktiv/HopLa/releases/download/$version/HopLa.jar"
+        "url": "https://github.com/synacktiv/HopLa/releases/download/v$version/HopLa.jar"
     }
 }

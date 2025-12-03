@@ -18,10 +18,10 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/projectdiscovery/proxify/releases/download/v$version/proxify$version_windows_386.zip"
+                "url": "https://github.com/projectdiscovery/proxify/releases/download/v$version/proxify_$version_windows_386.zip"
             },
             "64bit": {
-                "url": "https://github.com/projectdiscovery/proxify/releases/download/v$version/proxify$version_windows_amd64.zip"
+                "url": "https://github.com/projectdiscovery/proxify/releases/download/v$version/proxify_$version_windows_amd64.zip"
             }
         }
     }
